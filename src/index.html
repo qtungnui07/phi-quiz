@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en" data-theme="paper">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Machine</title>
+    <script>
+      try {
+        const theme = localStorage.getItem("quiz-machine:theme");
+        const themes = ["paper", "catppuccin-mocha", "shades-of-purple", "monokai-classic", "solarized-dark", "dracula", "nord-dark", "gruvbox-dark", "tokyo-night"];
+        if (theme && themes.includes(theme)) document.documentElement.dataset.theme = theme;
+      } catch {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./frontend.tsx"></script>
+  </body>
+</html>

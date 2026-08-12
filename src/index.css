@@ -1,0 +1,564 @@
+@import "tailwindcss";
+
+:root,
+[data-theme="paper"] {
+  color-scheme: light;
+  --color-page: #f8f6f1;
+  --color-surface: #fffdfa;
+  --color-raised: #ffffff;
+  --color-subtle: #f4f1e9;
+  --color-sidebar: #f1eee6;
+  --color-text: #20231f;
+  --color-text-soft: #39423b;
+  --color-text-muted: #5d665f;
+  --color-text-faint: #63736b;
+  --color-border: #d8d2c4;
+  --color-border-strong: #b9b0a0;
+  --color-accent: #355445;
+  --color-accent-hover: #263e32;
+  --color-accent-soft: #eef4ef;
+  --color-accent-selected: #eef6f0;
+  --color-focus: #8fb59a;
+  --color-focus-soft: #b8d5c1;
+  --color-on-accent: #ffffff;
+  --color-disabled: #acb5ad;
+  --color-success: #5c9a6b;
+  --color-success-bg: #edf8ef;
+  --color-success-text: #275233;
+  --color-danger: #c1493d;
+  --color-danger-bg: #fff0ee;
+  --color-danger-text: #84261e;
+  --color-warning-bg: #e9e0ce;
+  --color-warning-text: #5c4927;
+  --color-code-bg: #20231f;
+  --color-code-text: #f8f6f1;
+}
+
+[data-theme="catppuccin-mocha"] {
+  color-scheme: dark;
+  --color-page: #1e1e2e;
+  --color-surface: #181825;
+  --color-raised: #313244;
+  --color-subtle: #29293d;
+  --color-sidebar: #11111b;
+  --color-text: #cdd6f4;
+  --color-text-soft: #bac2de;
+  --color-text-muted: #a6adc8;
+  --color-text-faint: #9399b2;
+  --color-border: #45475a;
+  --color-border-strong: #585b70;
+  --color-accent: #cba6f7;
+  --color-accent-hover: #b4befe;
+  --color-accent-soft: #3b3650;
+  --color-accent-selected: #45405e;
+  --color-focus: #cba6f7;
+  --color-focus-soft: #6c5b7f;
+  --color-on-accent: #1e1e2e;
+  --color-disabled: #585b70;
+  --color-success: #a6e3a1;
+  --color-success-bg: #263d32;
+  --color-success-text: #b8edb4;
+  --color-danger: #f38ba8;
+  --color-danger-bg: #482b3a;
+  --color-danger-text: #f5a5bb;
+  --color-warning-bg: #493f2f;
+  --color-warning-text: #f9e2af;
+  --color-code-bg: #11111b;
+  --color-code-text: #cdd6f4;
+}
+
+[data-theme="shades-of-purple"] {
+  color-scheme: dark;
+  --color-page: #1e1e3f;
+  --color-surface: #2d2b55;
+  --color-raised: #383564;
+  --color-subtle: #343160;
+  --color-sidebar: #191735;
+  --color-text: #ffffff;
+  --color-text-soft: #e6e6ff;
+  --color-text-muted: #bdb7e8;
+  --color-text-faint: #a599d6;
+  --color-border: #514d83;
+  --color-border-strong: #716ca5;
+  --color-accent: #fad000;
+  --color-accent-hover: #ffe45e;
+  --color-accent-soft: #454066;
+  --color-accent-selected: #514a70;
+  --color-focus: #ff9d00;
+  --color-focus-soft: #8b663c;
+  --color-on-accent: #1e1e3f;
+  --color-disabled: #686485;
+  --color-success: #a5ff90;
+  --color-success-bg: #28483f;
+  --color-success-text: #b9ffaa;
+  --color-danger: #ff628c;
+  --color-danger-bg: #542c4a;
+  --color-danger-text: #ff9ab6;
+  --color-warning-bg: #514726;
+  --color-warning-text: #fad000;
+  --color-code-bg: #16162f;
+  --color-code-text: #ffffff;
+}
+
+[data-theme="monokai-classic"] {
+  color-scheme: dark;
+  --color-page: #272822;
+  --color-surface: #1e1f1c;
+  --color-raised: #383830;
+  --color-subtle: #33342d;
+  --color-sidebar: #141411;
+  --color-text: #f8f8f2;
+  --color-text-soft: #e6e6e6;
+  --color-text-muted: #c4c3b5;
+  --color-text-faint: #a8a694;
+  --color-border: #49483e;
+  --color-border-strong: #75715e;
+  --color-accent: #a6e22e;
+  --color-accent-hover: #c4f05a;
+  --color-accent-soft: #3c4829;
+  --color-accent-selected: #47552b;
+  --color-focus: #ae81ff;
+  --color-focus-soft: #665487;
+  --color-on-accent: #20211d;
+  --color-disabled: #5b5a4e;
+  --color-success: #a6e22e;
+  --color-success-bg: #30421f;
+  --color-success-text: #c3ed70;
+  --color-danger: #f92672;
+  --color-danger-bg: #53243a;
+  --color-danger-text: #ff77a3;
+  --color-warning-bg: #4b472c;
+  --color-warning-text: #e6db74;
+  --color-code-bg: #141411;
+  --color-code-text: #f8f8f2;
+}
+
+[data-theme="solarized-dark"] {
+  color-scheme: dark;
+  --color-page: #002b36;
+  --color-surface: #073642;
+  --color-raised: #0b3f4c;
+  --color-subtle: #0a3945;
+  --color-sidebar: #00252e;
+  --color-text: #839496;
+  --color-text-soft: #93a1a1;
+  --color-text-muted: #7f9092;
+  --color-text-faint: #718285;
+  --color-border: #24515a;
+  --color-border-strong: #45646a;
+  --color-accent: #268bd2;
+  --color-accent-hover: #4ca4df;
+  --color-accent-soft: #16465a;
+  --color-accent-selected: #1a5268;
+  --color-focus: #2aa198;
+  --color-focus-soft: #286b6a;
+  --color-on-accent: #fdf6e3;
+  --color-disabled: #4d666a;
+  --color-success: #859900;
+  --color-success-bg: #29451f;
+  --color-success-text: #b2c83a;
+  --color-danger: #dc322f;
+  --color-danger-bg: #542d32;
+  --color-danger-text: #f06a67;
+  --color-warning-bg: #55491f;
+  --color-warning-text: #b58900;
+  --color-code-bg: #001f27;
+  --color-code-text: #93a1a1;
+}
+
+[data-theme="dracula"] {
+  color-scheme: dark;
+  --color-page: #282a36;
+  --color-surface: #21222c;
+  --color-raised: #343746;
+  --color-subtle: #30323f;
+  --color-sidebar: #191a21;
+  --color-text: #f8f8f2;
+  --color-text-soft: #e6e6e0;
+  --color-text-muted: #b7b9c5;
+  --color-text-faint: #a3a7bd;
+  --color-border: #44475a;
+  --color-border-strong: #6272a4;
+  --color-accent: #bd93f9;
+  --color-accent-hover: #d0b0ff;
+  --color-accent-soft: #413a59;
+  --color-accent-selected: #4b4265;
+  --color-focus: #8be9fd;
+  --color-focus-soft: #4f7585;
+  --color-on-accent: #282a36;
+  --color-disabled: #56596c;
+  --color-success: #50fa7b;
+  --color-success-bg: #264b38;
+  --color-success-text: #83ff9f;
+  --color-danger: #ff5555;
+  --color-danger-bg: #552f3b;
+  --color-danger-text: #ff8b8b;
+  --color-warning-bg: #504c2f;
+  --color-warning-text: #f1fa8c;
+  --color-code-bg: #191a21;
+  --color-code-text: #f8f8f2;
+}
+
+[data-theme="nord-dark"] {
+  color-scheme: dark;
+  --color-page: #2e3440;
+  --color-surface: #3b4252;
+  --color-raised: #434c5e;
+  --color-subtle: #394150;
+  --color-sidebar: #272c36;
+  --color-text: #eceff4;
+  --color-text-soft: #e5e9f0;
+  --color-text-muted: #c2c8d2;
+  --color-text-faint: #aeb7c5;
+  --color-border: #4c566a;
+  --color-border-strong: #68758b;
+  --color-accent: #88c0d0;
+  --color-accent-hover: #8fbcbb;
+  --color-accent-soft: #405363;
+  --color-accent-selected: #485e6e;
+  --color-focus: #81a1c1;
+  --color-focus-soft: #5c7188;
+  --color-on-accent: #2e3440;
+  --color-disabled: #596273;
+  --color-success: #a3be8c;
+  --color-success-bg: #3b5145;
+  --color-success-text: #bed2ad;
+  --color-danger: #bf616a;
+  --color-danger-bg: #583b45;
+  --color-danger-text: #dc8790;
+  --color-warning-bg: #574e38;
+  --color-warning-text: #ebcb8b;
+  --color-code-bg: #242933;
+  --color-code-text: #eceff4;
+}
+
+[data-theme="gruvbox-dark"] {
+  color-scheme: dark;
+  --color-page: #282828;
+  --color-surface: #32302f;
+  --color-raised: #3c3836;
+  --color-subtle: #353230;
+  --color-sidebar: #1d2021;
+  --color-text: #ebdbb2;
+  --color-text-soft: #d5c4a1;
+  --color-text-muted: #bdae93;
+  --color-text-faint: #a89984;
+  --color-border: #504945;
+  --color-border-strong: #665c54;
+  --color-accent: #d79921;
+  --color-accent-hover: #fabd2f;
+  --color-accent-soft: #51462c;
+  --color-accent-selected: #5c502f;
+  --color-focus: #83a598;
+  --color-focus-soft: #536b66;
+  --color-on-accent: #282828;
+  --color-disabled: #665c54;
+  --color-success: #98971a;
+  --color-success-bg: #3f4727;
+  --color-success-text: #b8bb26;
+  --color-danger: #cc241d;
+  --color-danger-bg: #532d2b;
+  --color-danger-text: #fb4934;
+  --color-warning-bg: #514327;
+  --color-warning-text: #fabd2f;
+  --color-code-bg: #1d2021;
+  --color-code-text: #ebdbb2;
+}
+
+[data-theme="tokyo-night"] {
+  color-scheme: dark;
+  --color-page: #1a1b26;
+  --color-surface: #16161e;
+  --color-raised: #24283b;
+  --color-subtle: #202337;
+  --color-sidebar: #101014;
+  --color-text: #c0caf5;
+  --color-text-soft: #a9b1d6;
+  --color-text-muted: #9aa5ce;
+  --color-text-faint: #7f8bb8;
+  --color-border: #3b4261;
+  --color-border-strong: #565f89;
+  --color-accent: #7aa2f7;
+  --color-accent-hover: #89b4fa;
+  --color-accent-soft: #2d3d63;
+  --color-accent-selected: #354873;
+  --color-focus: #7dcfff;
+  --color-focus-soft: #456b86;
+  --color-on-accent: #16161e;
+  --color-disabled: #4a506e;
+  --color-success: #9ece6a;
+  --color-success-bg: #304631;
+  --color-success-text: #b9e68b;
+  --color-danger: #f7768e;
+  --color-danger-bg: #512c40;
+  --color-danger-text: #ff9aae;
+  --color-warning-bg: #51452e;
+  --color-warning-text: #e0af68;
+  --color-code-bg: #101014;
+  --color-code-text: #c0caf5;
+}
+
+@layer base {
+  :root {
+    @apply bg-[var(--color-page)] text-[var(--color-text)] font-sans;
+  }
+
+  body {
+    @apply m-0 min-h-screen min-w-[320px] bg-[var(--color-page)];
+  }
+
+  button,
+  input,
+  select {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .panel {
+    @apply flex flex-col gap-3 rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-4 shadow-sm;
+  }
+
+  .section-title {
+    @apply text-xl font-bold leading-tight text-[var(--color-text)];
+  }
+
+  .nav-button {
+    @apply rounded-md border border-[var(--color-border-strong)] bg-[var(--color-raised)] px-4 py-2 text-sm font-semibold text-[var(--color-text-soft)] transition hover:border-[var(--color-text-faint)] hover:bg-[var(--color-accent-soft)];
+  }
+
+  .nav-button[aria-pressed="true"] {
+    @apply border-[var(--color-accent)] bg-[var(--color-accent)] text-[var(--color-on-accent)];
+  }
+
+  .primary-button {
+    @apply rounded-md border border-[var(--color-accent)] bg-[var(--color-accent)] px-4 py-2 text-sm font-bold text-[var(--color-on-accent)] transition hover:bg-[var(--color-accent-hover)] disabled:cursor-not-allowed disabled:border-[var(--color-disabled)] disabled:bg-[var(--color-disabled)];
+  }
+
+  .secondary-button {
+    @apply rounded-md border border-[var(--color-border-strong)] bg-[var(--color-raised)] px-4 py-2 text-sm font-bold text-[var(--color-text-soft)] transition hover:border-[var(--color-text-faint)] hover:bg-[var(--color-accent-soft)] disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .file-drop {
+    @apply flex cursor-pointer flex-col items-center justify-center gap-1 rounded-lg border-2 border-dashed border-[var(--color-border-strong)] bg-[var(--color-raised)] px-4 py-3 text-center transition hover:border-[var(--color-text-faint)] hover:bg-[var(--color-accent-soft)];
+  }
+
+  .field-label {
+    @apply text-sm font-bold text-[var(--color-text-soft)];
+  }
+
+  .input {
+    @apply w-full rounded-md border border-[var(--color-border-strong)] bg-[var(--color-raised)] px-3 py-2 text-[var(--color-text)] outline-none transition focus:border-[var(--color-accent)] focus:ring-2 focus:ring-[var(--color-focus-soft)];
+  }
+
+  .choice-row {
+    @apply flex cursor-pointer items-center gap-2 rounded-md border border-[var(--color-border)] bg-[var(--color-raised)] px-3 py-2 text-sm font-semibold text-[var(--color-text-soft)];
+  }
+
+  .answer-row {
+    @apply flex cursor-pointer items-start gap-3 rounded-md border border-[var(--color-border)] bg-[var(--color-raised)] px-4 py-4 text-[var(--color-text)] transition hover:border-[var(--color-text-faint)] hover:bg-[var(--color-accent-soft)];
+  }
+
+  .answer-row-selected {
+    @apply border-[var(--color-accent)] bg-[var(--color-accent-selected)];
+  }
+
+  .answer-row-focused {
+    @apply ring-2 ring-[var(--color-focus)] ring-offset-2 ring-offset-[var(--color-surface)];
+  }
+
+  .answer-row-correct {
+    @apply border-[var(--color-success)] bg-[var(--color-success-bg)];
+  }
+
+  .answer-row-wrong {
+    @apply border-[var(--color-danger)] bg-[var(--color-danger-bg)];
+  }
+
+  .result-card {
+    @apply flex flex-col gap-2 rounded-lg border border-[var(--color-border)] bg-[var(--color-raised)] p-3;
+  }
+
+  .status-pill {
+    @apply w-fit rounded-md px-3 py-1 text-xs font-bold uppercase tracking-wide;
+  }
+
+  .status-correct {
+    @apply bg-[var(--color-success-bg)] text-[var(--color-success-text)];
+  }
+
+  .status-wrong {
+    @apply bg-[var(--color-danger-bg)] text-[var(--color-danger-text)];
+  }
+
+  .keyboard-guide {
+    @apply flex flex-wrap gap-2 rounded-lg border border-[var(--color-border)] bg-[var(--color-raised)] px-4 py-3 text-sm font-semibold text-[var(--color-text-soft)] shadow-sm;
+  }
+
+  .keyboard-guide span {
+    @apply rounded-md bg-[var(--color-subtle)] px-3 py-1;
+  }
+
+  .rich-text {
+    @apply grid gap-3 text-sm leading-6;
+  }
+
+  .rich-text h3 {
+    @apply text-lg font-bold text-[var(--color-text)];
+  }
+
+  .rich-text h4 {
+    @apply text-base font-bold text-[var(--color-text)];
+  }
+
+  .rich-text ul {
+    @apply list-disc space-y-1 pl-5;
+  }
+
+  .rich-text ol {
+    @apply list-decimal space-y-1 pl-5;
+  }
+
+  .rich-text strong {
+    @apply font-bold text-[var(--color-text)];
+  }
+
+  .rich-text code {
+    @apply rounded bg-[var(--color-raised)] px-1 py-0.5 font-mono text-xs text-[var(--color-accent)];
+  }
+
+  .app-shell {
+    @apply flex min-h-screen flex-col bg-[var(--color-page)] text-[var(--color-text)];
+  }
+
+  .app-header {
+    @apply flex h-16 shrink-0 items-center justify-between gap-4 border-b border-[var(--color-border)] bg-[var(--color-surface)] px-4 sm:px-6;
+  }
+
+  .app-body {
+    @apply grid min-h-0 flex-1 grid-cols-1;
+  }
+
+  .subject-sidebar {
+    @apply flex min-h-0 flex-col gap-3 border-b border-[var(--color-border)] bg-[var(--color-sidebar)] p-4;
+  }
+
+  .sidebar-kicker {
+    @apply text-[0.68rem] font-bold uppercase tracking-[0.16em] text-[var(--color-text-faint)];
+  }
+
+  .count-badge {
+    @apply inline-flex h-7 min-w-7 items-center justify-center rounded-full bg-[var(--color-accent-soft)] px-2 text-xs font-bold text-[var(--color-accent)];
+  }
+
+  .subject-list {
+    @apply flex max-h-44 flex-col gap-1 overflow-y-auto;
+  }
+
+  .subject-item {
+    @apply flex w-full flex-col rounded-md border border-transparent px-3 py-2 text-left text-sm text-[var(--color-text-soft)] transition hover:border-[var(--color-border-strong)] hover:bg-[var(--color-raised)];
+  }
+
+  .subject-item[aria-pressed="true"] {
+    @apply border-[var(--color-accent)] bg-[var(--color-raised)] text-[var(--color-text)] shadow-sm;
+  }
+
+  .subject-meta {
+    @apply mt-0.5 text-xs font-normal text-[var(--color-text-muted)];
+  }
+
+  .sidebar-actions {
+    @apply grid gap-2 border-t border-[var(--color-border)] pt-3;
+  }
+
+  .subject-summary {
+    @apply mt-auto rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] p-3 text-sm;
+  }
+
+  .summary-grid {
+    @apply mt-2 grid grid-cols-2 gap-2 text-xs text-[var(--color-text-muted)];
+  }
+
+  .summary-grid span {
+    @apply rounded bg-[var(--color-subtle)] px-2 py-1.5;
+  }
+
+  .summary-grid strong {
+    @apply block text-base text-[var(--color-accent)];
+  }
+
+  .text-button {
+    @apply mt-2 text-xs font-bold text-[var(--color-accent)] underline decoration-[var(--color-focus)] underline-offset-2 hover:text-[var(--color-accent-hover)] disabled:cursor-not-allowed disabled:opacity-40;
+  }
+
+  .workspace {
+    @apply flex min-h-0 min-w-0 flex-col gap-3 overflow-y-auto p-3 sm:p-4;
+  }
+
+  .setup-grid {
+    @apply grid min-h-0 flex-1 grid-cols-1 gap-3;
+  }
+
+  .compact-scroll {
+    @apply min-h-0 overflow-y-auto pr-1;
+  }
+
+  .setup-span {
+    @apply col-span-full;
+  }
+
+  .empty-state {
+    @apply rounded-md border border-dashed border-[var(--color-border-strong)] bg-[var(--color-raised)] p-4 text-sm text-[var(--color-text-muted)];
+  }
+
+  .icon-button {
+    @apply rounded border border-[var(--color-border)] bg-[var(--color-raised)] px-2 py-1 text-xs font-semibold text-[var(--color-text-soft)] transition hover:border-[var(--color-text-faint)] hover:bg-[var(--color-accent-soft)];
+  }
+
+  .settings-panel {
+    @apply shrink-0 rounded-lg border border-[var(--color-border)] bg-[var(--color-surface)] px-4 py-3 shadow-sm;
+  }
+
+  .settings-panel summary {
+    @apply cursor-pointer text-sm text-[var(--color-text-soft)];
+  }
+
+  .settings-panel summary small {
+    @apply ml-2 text-xs font-normal text-[var(--color-text-muted)];
+  }
+
+  .settings-content {
+    @apply mt-3 grid gap-3 border-t border-[var(--color-border)] pt-3;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    overflow: hidden;
+  }
+
+  .app-shell {
+    height: 100dvh;
+    min-height: 0;
+  }
+
+  .app-body {
+    grid-template-columns: 250px minmax(0, 1fr);
+  }
+
+  .subject-sidebar {
+    border-right: 1px solid var(--color-border);
+    border-bottom: 0;
+  }
+
+  .subject-list {
+    max-height: none;
+    min-height: 4rem;
+    flex: 1;
+  }
+
+  .setup-grid {
+    grid-template-columns: minmax(280px, 0.85fr) minmax(360px, 1.15fr);
+    grid-template-rows: minmax(0, 1fr) auto;
+  }
+}

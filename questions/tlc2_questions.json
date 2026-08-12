@@ -1,0 +1,1952 @@
+[
+  {
+    "question": "Sản xuất vật chất là gì?",
+    "answers": [
+      "Sản xuất xã hội, sản xuất tinh thần",
+      "Sản xuất của cải vật chất",
+      "Sản xuất vật chất và sản xuất tinh thần",
+      "Sản xuất ra đời sống xã hội"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Sản xuất của cải vật chất”."
+  },
+  {
+    "question": "Lực lượng sản xuất gồm những yếu tố nào sau đây?",
+    "answers": [
+      "Tư liệu sản xuất và quan hệ giữa người với người đối với tư liệu sản xuất",
+      "Tư liệu sản xuất và người lao động.",
+      "Tư liệu sản xuất và tổ chức, quản lý quá trình sản xuất.",
+      "Công cụ lao động và người lao động."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Tư liệu sản xuất và người lao động”."
+  },
+  {
+    "question": "Tư liệu sản xuất bao gồm các yếu tố cấu thành nào?",
+    "answers": [
+      "Người lao động và công cụ lao động",
+      "Công cụ lao động và đối tượng lao động",
+      "Đối tượng lao động và tư liệu lao động",
+      "Công cụ lao động và tư liệu lao động"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Đối tượng lao động và tư liệu lao động”."
+  },
+  {
+    "question": "Lực lượng sản xuất bao gồm các yếu tố cấu thành nào?",
+    "answers": [
+      "Người lao động và công cụ lao động",
+      "Tư liệu lao động và đối tượng lao động",
+      "Người lao động và tư liệu sản xuất",
+      "Công cụ lao động và tư liệu lao động"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Người lao động và tư liệu sản xuất”."
+  },
+  {
+    "question": "Yếu tố nào mang tính cách mạng nhất trong tư liệu sản xuất?",
+    "answers": [
+      "Người lao động",
+      "Công cụ lao động",
+      "Phương tiện lao động",
+      "Đối tượng lao động"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Công cụ lao động”."
+  },
+  {
+    "question": "Yếu tố nào mang tính năng động, cách mạng nhất trong lực lượng sản xuất?",
+    "answers": [
+      "Người lao động",
+      "Công cụ lao động",
+      "Phương tiện lao động",
+      "Đối tượng lao động"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Người lao động”."
+  },
+  {
+    "question": "Quan hệ sản xuất là",
+    "answers": [
+      "Quan hệ giữa con người với tự nhiên",
+      "Quan hệ giữa con người với con người trong quá trình sản xuất, lưu thông, tiêu dùng hàng hoá",
+      "Quan hệ giữa người với người trong quá trình sản xuất vật chất",
+      "Quan hệ giữa người với người trong đời sống xã hội"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Quan hệ giữa người với người trong quá trình sản xuất vật chất”."
+  },
+  {
+    "question": "Cấu trúc của quan hệ sản xuất bao gồm những gì?",
+    "answers": [
+      "Quan hệ sở hữu tư liệu sản xuất; quan hệ tổ chức, quản lý sản xuất ; quan hệ phân phối sản phẩm",
+      "Quan hệ tổ chức, quản lý quá trình sản xuất; quan hệ đạo đức; quan hệ sở hữu tư liệu sản xuất",
+      "Quan hệ phân phối sản phẩm; quan hệ sở hữu tư liệu sản xuất, quan hệ đạo đức",
+      "Quan hệ sở hữu tư liệu sản xuất; quan hệ tổ chức, quản lý quá trình sản xuất; quan hệ tiêu dùng sản phẩm"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Quan hệ sở hữu tư liệu sản xuất; quan hệ tổ chức, quản lý sản xuất ; quan hệ phân phối sản phẩm”."
+  },
+  {
+    "question": "Trong quan hệ sản xuất, quan hệ nào giữ vai trò quyết định?",
+    "answers": [
+      "Quan hệ sở hữu tư liệu sản xuất",
+      "Quan hệ tổ chức, quản lý quá trình sản xuất",
+      "Quan hệ phân phối sản phẩm.",
+      "Quan hệ sở hữu tư nhân về tư liệu sản xuất"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Quan hệ sở hữu tư liệu sản xuất”."
+  },
+  {
+    "question": "Nền tảng vật chất của toàn bộ lịch sử nhân loại là yếu tố nào sau đây?",
+    "answers": [
+      "Lực lượng sản xuất",
+      "Quan hệ sản xuất",
+      "Của cải vật chất",
+      "Phương thức sản xuất"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Lực lượng sản xuất”."
+  },
+  {
+    "question": "Sự biến đổi, phát triển của sản xuất bao giờ cũng bắt đầu từ sự biến đổi, phát triển nào?",
+    "answers": [
+      "Sự biến đổi, phát triển của cách thức sản xuất",
+      "Sự biến đổi, phát triển của lực lượng sản xuất",
+      "Sự biến đổỉ quan hệ sản xuất",
+      "Sự biến đổi, phát triển của khoa học."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Sự biến đổi, phát triển của lực lượng sản xuất”."
+  },
+  {
+    "question": "Trình độ của lực lượng sản xuất không thể hiện ở nội dung nào sau đây?",
+    "answers": [
+      "Trình độ công cụ lao động và năng suất của người lao động",
+      "Trình độ tổ chức, phân công lao động xã hội",
+      "Trình độ ứng xử xã hội của người lao động",
+      "Công nghệ sản xuất"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Trình độ ứng xử xã hội của người lao động”."
+  },
+  {
+    "question": "Chọn mệnh đề đúng điền vào chỗ trống trong câu sau: Quan hệ sản xuất phù với …",
+    "answers": [
+      "Trình độ phát triển lực lượng sản suất",
+      "Quy mô lực lượng sản xuất",
+      "Trình độ phân công lao động",
+      "Năng suất lao động"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Trình độ phát triển lực lượng sản suất”."
+  },
+  {
+    "question": "Quy luật xã hội nào giữ vai trò quyết định đối với sự vận động, phát triển của xã hội?",
+    "answers": [
+      "Quy luật về sự phù hợp của quan hệ sản xuất với trình độ phát triển của lực lượng sản xuất.",
+      "Quy luật tồn tại xã hội quyết định ý thức xã hội",
+      "Quy luật cơ sở hạ tầng quyết định kiến trúc thượng tầng",
+      "Quy luật đấu tranh giai cấp"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Quy luật về sự phù hợp của quan hệ sản xuất với trình độ phát triển của lực lượng sản xuất”."
+  },
+  {
+    "question": "Tính chất xã hội của lực lượng sản xuất được bắt đầu từ xã hội nào?",
+    "answers": [
+      "Xã hội tư bản chủ nghĩa",
+      "Xã hội xã hội chủ nghĩa",
+      "Xã hội phong kiến",
+      "Xã hội chiếm hữu nô lệ."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Xã hội tư bản chủ nghĩa”."
+  },
+  {
+    "question": "Hoạt động tự giác trên quy mô toàn xã hội là đặc trưng cơ bản của nhân tố chủ quan trong xã hội nào sau đây?",
+    "answers": [
+      "Cộng sản nguyên thuỷ",
+      "Tư bản chủ nghĩa",
+      "Xã hội chủ nghĩa",
+      "Phong kiến"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Xã hội chủ nghĩa”."
+  },
+  {
+    "question": "Theo C.Mác và Ph.Ăngghen, quá trình thay thế các hình thức sở hữu tư liệu sản xuất phụ thuộc vào",
+    "answers": [
+      "Trình độ của công cụ sản xuất",
+      "Trình độ kỹ thuật sản xuất",
+      "Trình độ phân công lao động xã hội",
+      "Trình độ phát triển của lực lượng sản xuất"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Trình độ phát triển của lực lượng sản xuất”."
+  },
+  {
+    "question": "Cơ sở hạ tầng của xã hội là",
+    "answers": [
+      "Đường xá, cầu tàu, bến cảng, bưu điện…",
+      "Tổng hợp các quan hệ sản xuất hợp thành cơ cấu kinh tế của xã hội",
+      "Toàn bộ cơ sở vật chất - kỹ thuật của xã hội",
+      "Đời sống vật chất"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Tổng hợp các quan hệ sản xuất hợp thành cơ cấu kinh tế của xã hội”."
+  },
+  {
+    "question": "Kiến trúc thượng tầng của xã hội là",
+    "answers": [
+      "Toàn bộ các quan hệ xã hội",
+      "Toàn bộ các tư tưởng xã hội và các tổ chức tương ứng",
+      "Toàn bộ những quan điểm chính trị, pháp quyền,… và những thiết chế xã hội tương ứng như nhà nước, đảng phái chính trị, … được hình thành trên cơ sở hạ tầng nhất định.",
+      "Toàn bộ ý thức xã hội"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Toàn bộ những quan điểm chính trị, pháp quyền,… và những thiết chế xã hội tương ứng như nhà nước, đảng phái chính trị, … được hình thành trên cơ sở hạ tầng nhất định”."
+  },
+  {
+    "question": "Cách viết nào sau đây là đúng?",
+    "answers": [
+      "Hình thái kinh tế - xã hội",
+      "Hình thái kinh tế của xã hội",
+      "Hình thái xã hội",
+      "Hình thái kinh tế, xã hội"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Hình thái kinh tế - xã hội”."
+  },
+  {
+    "question": "Xét đến cùng, nhân tố nào có ý nghĩa quyết định sự thắng lợi của một trật tự xã hội mới?",
+    "answers": [
+      "Năng suất lao động",
+      "Sức mạnh của luật pháp",
+      "Hiệu quả hoạt động của hệ thống chính trị",
+      "Sự điều hành và quản lý xã hội của Nhà nước"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Năng suất lao động”."
+  },
+  {
+    "question": "Quá độ lên chủ nghĩa xã hội bỏ qua chế độ chính trị tư bản chủ nghĩa ở nước ta hiện nay là",
+    "answers": [
+      "Trái với tiến trình lịch sử tự nhiên",
+      "Phù hợp với quá trình lịch sử tự nhiên",
+      "Vận dụng sáng tạo của Đảng ta",
+      "Không phù hợp với quy luật khách quan"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Vận dụng sáng tạo của Đảng ta”."
+  },
+  {
+    "question": "Tiêu chuẩn khách quan nào phân biệt các hình thái kinh tế – xã hội?",
+    "answers": [
+      "Lực lượng sản xuất",
+      "Quan hệ sản xuất",
+      "Chính trị, tư tưởng.",
+      "Văn hóa."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Quan hệ sản xuất”."
+  },
+  {
+    "question": "Các yếu tố cơ bản nào tạo thành cấu trúc của một hình thái kinh tế – xã hội?",
+    "answers": [
+      "Quan hệ sản xuất",
+      "Lực lượng sản xuất",
+      "Kiến trúc thượng tầng",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a, b và c”."
+  },
+  {
+    "question": "Thực chất của lịch sử xã hội loài người là",
+    "answers": [
+      "Lịch sử đấu tranh giai cấp",
+      "Lịch sử của văn hoá",
+      "Lịch sử của sản xuất vật chất",
+      "Lịch sử của tôn giáo"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Lịch sử của sản xuất vật chất”."
+  },
+  {
+    "question": "Thực chất của quan hệ biện chứng giữa cơ sở hạ tầng và kiến trúc thượng tầng là gì?",
+    "answers": [
+      "Là quan hệ giữa đời sống vật chất và đời sống tinh thần của xã hội",
+      "Là quan hệ giữa kinh tế và chính trị",
+      "Là quan hệ giữa vật chất và tinh thần.",
+      "Là quan hệ giữa tồn tại xã hội với ý thức xã hội"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Là quan hệ giữa kinh tế và chính trị”."
+  },
+  {
+    "question": "Phạm trù hình thái kinh tế – xã hội là phạm trù được áp dụng",
+    "answers": [
+      "Cho mọi xã hội trong lịch sử",
+      "Cho một xã hội cụ thể",
+      "Cho xã hội tư bản chủ nghĩa",
+      "Cho xã hội cộng sản chủ nghĩa"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Cho mọi xã hội trong lịch sử”."
+  },
+  {
+    "question": "Chọn cách hiểu đúng nhất đoạn văn sau đây của C.Mác: “Tôi coi sự phát triển của những hình thái kinh tế – xã hội là một quá trình lịch sử – tự nhiên”.",
+    "answers": [
+      "Sự phát triển của các hình thái kinh tế – xã hội cũng giống như sự phát triển của tự nhiên không phụ thuộc vào ý muốn chủ quan của con người.",
+      "Sự phát triển của các hình thái kinh tế – xã hội tuân theo quy luật khách quan của xã hội.",
+      "Sự phát triển của các hình thái kinh tế – xã hội, ngoài tuân theo các quy luật chung, còn bị chi phối bởi điều kiện lịch sử cụ thể của mỗi quốc gia dân tộc.",
+      "Sự phát triển của các hình thái kinh tế – xã hội tuân theo các quy luật chung."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Sự phát triển của các hình thái kinh tế – xã hội cũng giống như sự phát triển của tự nhiên không phụ thuộc vào ý muốn chủ quan của con người”."
+  },
+  {
+    "question": "Mối quan hệ giữa mặt khách quan và mặt chủ quan của tiến trình lịch sử nhân loại đã được C.Mác đặt ra và giải quyết bằng những cặp phạm trù nào sau đây?",
+    "answers": [
+      "Hoạt động tự giác và hoạt động tự phát trong sự phát triển lịch sử",
+      "Tồn tại xã hội và ý thức xã hội, tất yếu và tự do, điều kiện khách quan và nhân tố chủ quan",
+      "Cá nhân và xã hội; dân tộc và nhân loại",
+      "Cả a và b"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a và b”."
+  },
+  {
+    "question": "Hiểu vấn đề “bỏ qua” chế độ tư bản chủ nghĩa ở nước ta như thế nào là đúng",
+    "answers": [
+      "Là sự “phát triển rút ngắn” và “bỏ qua” việc xác lập địa vị thống trị của quan hệ sản xuất tư bản chủ nghĩa",
+      "Là “bỏ qua” sự phát triển lực lượng sản xuất",
+      "Là sự phát triển tuần tự",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Là sự “phát triển rút ngắn” và “bỏ qua” việc xác lập địa vị thống trị của quan hệ sản xuất tư bản chủ nghĩa”."
+  },
+  {
+    "question": "Lựa chọn cách thức vận dụng đúng quan hệ biện chứng giữa lực lượng sản xuất và quan hệ sản xuất trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam.",
+    "answers": [
+      "Chủ động xây dựng quan hệ sản xuất trước, sau đó xây dựng lực lượng sản xuất phù hợp.",
+      "Chủ động xây dựng lực lượng sản xuất trước, sau đó xây dựng quan hệ sản xuất phù hợp.",
+      "Kết hợp đồng thời xây dựng lực lượng sản xuất với từng bước xác lập quan hệ sản xuất phù hợp.",
+      "Chỉ cần tạo điều kiện cho lực lượng sản xuất phát triển, quan hệ sản xuất sẽ tự thích ứng"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Kết hợp đồng thời xây dựng lực lượng sản xuất với từng bước xác lập quan hệ sản xuất phù hợp”."
+  },
+  {
+    "question": "Chọn đáp án phù hợp để điền tiếp vào mệnh đề sau: Tiến lên chủ nghĩa xã hội bỏ qua chế độ tư bản chủ nghĩa trong thời đại ngày nay là....",
+    "answers": [
+      "Phù hợp với quá trình lịch sử – tự nhiên.",
+      "Không phù hợp với quá trình lịch sử – tự nhiên.",
+      "Vận dụng sáng tạo của Đảng ta.",
+      "Xu thế khách quan của lịch sử"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Không phù hợp với quá trình lịch sử – tự nhiên”."
+  },
+  {
+    "question": "Quốc gia nào sau đây trong lịch sử đã từng bỏ qua một vài hình thái kinh tế - xã hội?",
+    "answers": [
+      "Nga, Ucraina",
+      "Hoa Kỳ, Việt Nam",
+      "Việt Nam, Nga",
+      "Đức, Italia"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Hoa Kỳ, Việt Nam”."
+  },
+  {
+    "question": "Chủ trương thực hiện nhất quán cơ cấu kinh tế nhiều thành phần ở nước ta hiện nay là",
+    "answers": [
+      "Sự vận dụng đúng đắn quy luật về sự phù hợp của quan hệ sản xuất với trình độ của lực lượng sản xuất.",
+      "Nhằm đáp ứng yêu cầu hội nhập kinh tế thế giới",
+      "Nhằm thúc đẩy sự phát triển kinh tế",
+      "Nhằm phát triển quan hệ sản xuất"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Sự vận dụng đúng đắn quy luật về sự phù hợp của quan hệ sản xuất với trình độ của lực lượng sản xuất”."
+  },
+  {
+    "question": "Đặc điểm lớn nhất chi phối thời kỳ quá độ lên chủ nghĩa xã hội ở nước ta là",
+    "answers": [
+      "Nhiều thành phần xã hội đan xen tồn tại",
+      "Lực lượng sản xuất chưa phát triển",
+      "Năng xuất lao động thấp",
+      "Từ một nền sản xuất nhỏ là phổ biến quá độ lên CNXH không qua chế độ tư bản chủ nghĩa"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Từ một nền sản xuất nhỏ là phổ biến quá độ lên CNXH không qua chế độ tư bản chủ nghĩa”."
+  },
+  {
+    "question": "Giai cấp là những tập đoàn người to lớn có đặc trưng nào sau đây?",
+    "answers": [
+      "khác nhau về địa vị của họ trong trong một hệ thống sản xuất xã hội nhất định trong lịch sử",
+      "khác nhau về quan hệ của họ đối với tư liệu sản xuất,",
+      "khác nhau về vai trò của họ trong tổ chức lao động xã hội và do đó khác nhau về cách thức hưởng thụ phần của cải xã hội",
+      "Cả a,b,c"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a,b,c”."
+  },
+  {
+    "question": "Đặc trưng nào của giai cấp giữ vai trò chi phối các đặc trưng khác?",
+    "answers": [
+      "Tập đoàn này có thể chiếm đoạt lao động của tập đoàn khác",
+      "Khác nhau về quan hệ sở hữu tư liệu sản xuất xã hội",
+      "Khác nhau về vai trò trong tổ chức lao động xã hội",
+      "Khác nhau về địa vị trong hệ thống tổ chức xã hội"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Khác nhau về quan hệ sở hữu tư liệu sản xuất xã hội”."
+  },
+  {
+    "question": "Sự phân chia giai cấp trong xã hội bắt đầu từ hình thái kinh tế – xã hội nào?",
+    "answers": [
+      "Cộng sản nguyên thuỷ",
+      "Chiếm hữu nô lệ",
+      "Phong kiến.",
+      "Tư bản chủ nghĩa"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Chiếm hữu nô lệ”."
+  },
+  {
+    "question": "Nguyên nhân trực tiếp của sự ra đời giai cấp trong xã hội là gì?",
+    "answers": [
+      "Do sự phát triển lực lượng sản xuất làm xuất hiện “của dư” tương đối",
+      "Do sự chênh lệch về khả năng giữa các tập đoàn người",
+      "Do sự xuất hiện chế độ tư hữu về tư liệu sản xuất",
+      "Do sự phân hoá giữa giàu và nghèo trong xã hội"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Do sự xuất hiện chế độ tư hữu về tư liệu sản xuất”."
+  },
+  {
+    "question": "Đấu tranh giai cấp, xét đến cùng là nhằm mục đích gì?",
+    "answers": [
+      "Phát triển sản xuất",
+      "Giải quyết mâu thuẫn giai cấp",
+      "Lật đổ sự áp bức của giai cấp thống trị bóc lột.",
+      "Giành lấy chính quyền Nhà nước"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Lật đổ sự áp bức của giai cấp thống trị bóc lột”."
+  },
+  {
+    "question": "Mâu thuẫn đối kháng giữa các giai cấp là do đâu?",
+    "answers": [
+      "Do sự khác nhau về tư tưởng, lối sống",
+      "Do sự đối lập về lợi ích cơ bản – lợi ích kinh tế",
+      "Do sự khác nhau giữa người giàu và người nghèo",
+      "Do sự khác nhau về mức thu nhập"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Do sự đối lập về lợi ích cơ bản – lợi ích kinh tế”."
+  },
+  {
+    "question": "Tiêu chí cơ bản để đánh giá giai cấp cách mạng là",
+    "answers": [
+      "Nghèo nhất trong xã hội.",
+      "Bị thống trị bóc lột.",
+      "Có khả năng giải phóng lực lượng sản xuất bị kìm hãm trong phương thức sản xuất cũ lạc hậu.",
+      "Có tinh thần cách mạng"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Có khả năng giải phóng lực lượng sản xuất bị kìm hãm trong phương thức sản xuất cũ lạc hậu”."
+  },
+  {
+    "question": "Đâu là quan điểm sai về đấu tranh giai cấp?",
+    "answers": [
+      "Đấu tranh giai cấp là đấu tranh của các tập đoàn người có địa vị xã hội khác nhau.",
+      "Đấu tranh giai cấp là đấu tranh của những tập đoàn người có lợi ích căn bản đối lập nhau.",
+      "Đấu tranh giai cấp là động lực trực tiếp của lịch sử các xã hội có giai cấp",
+      "Đấu tranh giai cấp là đấu tranh giữa những tập đoàn người có sở thích khác nhau"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Đấu tranh giai cấp là đấu tranh giữa những tập đoàn người có sở thích khác nhau”."
+  },
+  {
+    "question": "Mối quan tâm cơ bản của một giai cấp trong xã hội được biểu hiện rõ nét ở mặt nào sau đây?",
+    "answers": [
+      "Chính trị.",
+      "Đạo đức.",
+      "Lối sống.",
+      "Văn hoá."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Chính trị”."
+  },
+  {
+    "question": "Giai cấp thống trị về kinh tế trong xã hội trở thành giai cấp thống trị về chính trị, là nhờ",
+    "answers": [
+      "Hệ thống luật pháp ủng hộ",
+      "Chi phối được quyền lực nhà nước",
+      "Hệ tư tưởng của giai cấp đó thống trị",
+      "Có vị thế chính trị thuận lợi"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Chi phối được quyền lực nhà nước”."
+  },
+  {
+    "question": "Xét đến cùng yếu tố chi phối sự vận động, phát triển của một giai cấp là",
+    "answers": [
+      "Hệ tư tưởng",
+      "Đường lối tổ chức",
+      "Lợi ích cơ bản",
+      "Đường lối chính trị của giai cấp thống trị"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Lợi ích cơ bản”."
+  },
+  {
+    "question": "Một giai cấp không phải bao giờ cũng là một tập đoàn người đồng nhất về mọi phương diện, mà trong đó thường phân ra các nhóm, là do nguyên nhân nào?",
+    "answers": [
+      "Những lợi ích cụ thể khác nhau, ngành nghề điều kiện làm việc khác nhau, sinh hoạt khác nhau.",
+      "Ngành nghề điều kiện làm việc khác nhau, sinh hoạt khác nhau, sở thích khác nhau",
+      "Sinh hoạt khác nhau, lợi ích và sở thích khác nhau",
+      "Sở thích khác nhau, điều kiện làm việc khác nhau"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Những lợi ích cụ thể khác nhau, ngành nghề điều kiện làm việc khác nhau, sinh hoạt khác nhau”."
+  },
+  {
+    "question": "Trong các hình thức đấu tranh sau đây của giai cấp vô sản, hình thức nào là hình thức đấu tranh cao nhất?",
+    "answers": [
+      "Đấu tranh chính trị",
+      "Đấu tranh kinh tế",
+      "Đấu tranh tư tưởng",
+      "Đấu tranh quân sự"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Đấu tranh chính trị”."
+  },
+  {
+    "question": "Vai trò của đấu tranh giai cấp trong lịch sử nhân loại là gì?",
+    "answers": [
+      "Là động lực cơ bản của sự phát triển xã hội.",
+      "Là một động lực quan trọng của sự phát triển xã hội trong các xã hội có giai cấp",
+      "Thay thế các hình thái kinh tế – xã hội từ thấp đến cao.",
+      "Lật đổ ách thống trị của giai cấp thống trị"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Là một động lực quan trọng của sự phát triển xã hội trong các xã hội có giai cấp”."
+  },
+  {
+    "question": "Sự khác biệt của cuộc đấu tranh giai cấp của giai cấp vô sản so với các cuộc đấu tranh giai cấp khác là gì?",
+    "answers": [
+      "Là cuộc đấu tranh giai cấp nhằm mục đích thiết lập quyền thống trị của giai cấp vô sản",
+      "Là cuộc đấu tranh giai cấp gay go, quyết liệt nhất",
+      "Là cuộc đấu tranh giai cấp nhằm xóa bỏ sự phân chia giai cấp trong xã hội",
+      "Là cuộc đấu tranh giai cấp dẫn đến thực hiện chuyên chính vô sản"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Là cuộc đấu tranh giai cấp nhằm xóa bỏ sự phân chia giai cấp trong xã hội”."
+  },
+  {
+    "question": "Điều kiện thuận lợi cơ bản nhất của cuộc đấu tranh giai cấp của giai cấp vô sản trong thời kỳ quá độ là gì?",
+    "answers": [
+      "Giai cấp thống trị phản động bị lật đổ",
+      "Giai cấp vô sản đã giành được chính quyền",
+      "Sự ủng hộ giúp đỡ của giai cấp vô sản quốc tế",
+      "Có sự lãnh đạo của Đảng cộng sản"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Giai cấp vô sản đã giành được chính quyền”."
+  },
+  {
+    "question": "Trong các nhiệm vụ của đấu tranh giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội, nhiệm vụ nào có vai trò quyết định?",
+    "answers": [
+      "Cải tạo xã hội cũ, xây dựng xã hội mới",
+      "Bảo vệ thành quả cách mạng đã giành được",
+      "Củng cố, bảo vệ chính quyền",
+      "Phát triển lực lượng sản xuất"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Phát triển lực lượng sản xuất”."
+  },
+  {
+    "question": "Theo quan điểm Đại hội IX của Đảng Cộng sản Việt Nam nội dung chủ yếu nhất của đấu tranh giai cấp ở nước ta hiện nay là nội dung nào?",
+    "answers": [
+      "Làm thất bại âm mưu chống phá của các thế lực thù địch",
+      "Chống áp bức bất công, thực hiện công bằng xã hội",
+      "Thực hiện thắng lợi sự nghiệp công nghiệp hoá, hiện đại hoá đất nước",
+      "Đấu tranh chống lại các tệ nạn xã hội, trong đó có tệ tham nhũng, lãng phí."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Thực hiện thắng lợi sự nghiệp công nghiệp hoá, hiện đại hoá đất nước”."
+  },
+  {
+    "question": "Lựa chọn cách hiểu đúng đoạn văn sau của C.Mác: “Sự tồn tại của các giai cấp chỉ gắn liền với những giai đoạn phát triển lịch sử nhất định của sản xuất”?",
+    "answers": [
+      "Giai cấp chỉ là một phạm trù lịch sử",
+      "Sự tồn tại của giai cấp gắn liền với lịch sử của sản xuất",
+      "Sự tồn tại giai cấp chỉ gắn liền với các giai đoạn phát triển nhất định của sản xuất",
+      "Giai cấp là một hiện tượng xã hội"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Giai cấp chỉ là một phạm trù lịch sử”."
+  },
+  {
+    "question": "Cơ sở của liên minh công – nông trong cuộc đấu tranh giai cấp của giai cấp công nhân chống giai cấp tư sản là gì?",
+    "answers": [
+      "Cùng mục tiêu lý tưởng",
+      "Cùng địa vị trong xã hội",
+      "Sự thống nhất về lợi ích cơ bản",
+      "Hai giai cấp mang bản chất cách mạng"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Sự thống nhất về lợi ích cơ bản”."
+  },
+  {
+    "question": "Hình thức đấu tranh đầu tiên của giai cấp vô sản chống giai cấp tư sản là hình thức nào?",
+    "answers": [
+      "Đấu tranh tư tưởng",
+      "Đấu tranh kinh tế",
+      "Đấu tranh chính trị",
+      "Đấu tranh vũ trang"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Đấu tranh kinh tế”."
+  },
+  {
+    "question": "Cách hiểu nào là đúng về mục đích cuối cùng của đấu tranh giai cấp trong lịch sử?",
+    "answers": [
+      "Đấu tranh giai cấp nhằm mục đích cuối cùng là thay đổi địa vị lẫn nhau giữa các giai cấp",
+      "Đấu tranh giai cấp mục đích cuối cùng là chiếm lấy quyền lực nhà nước",
+      "Đấu tranh giai cấp nhằm mục đích cuối cùng là xoá bỏ giai cấp.",
+      "Đấu tranh giai cấp nhằm mục đích cuối cùng là thay đổi hiện thực xã hội"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Đấu tranh giai cấp nhằm mục đích cuối cùng là xoá bỏ giai cấp”."
+  },
+  {
+    "question": "Mọi xung đột trong lịch sử xét đến cùng đều bắt nguồn từ đâu?",
+    "answers": [
+      "Mâu thuẫn về lợi ích giữa những tập đoàn người, giữa các cá nhân",
+      "Mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất",
+      "Mâu thuẫn về hệ tư tưởng",
+      "Mâu thuẫn giai cấp"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Mâu thuẫn giữa lực lượng sản xuất và quan hệ sản xuất”."
+  },
+  {
+    "question": "Lựa chọn thứ tự sự phát triển các hình thức cộng đồng người phù hợp với tiến trình lịch sử.",
+    "answers": [
+      "Bộ lạc – Bộ tộc – Thị tộc – Dân tộc",
+      "Bộ tộc – Thị tộc – Bộ lạc – Dân tộc",
+      "Thị tộc – Bộ lạc – Bộ tộc – Dân tộc",
+      "Thị tộc – Bộ lạc – Liên minh thị tộc – Bộ tộc – Dân tộc"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Thị tộc – Bộ lạc – Bộ tộc – Dân tộc”."
+  },
+  {
+    "question": "Đâu không phải đặc trưng của dân tộc?",
+    "answers": [
+      "Dân tộc là một cộng đồng người ổn định trên một lãnh thổ thống nhất",
+      "Dân tộc là một cộng đồng người thống nhất về ngôn ngữ",
+      "Dân tộc là một cộng đồng người có chung huyết thống",
+      "Dân tộc là một cộng đồng người thống nhất về kinh tế"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Dân tộc là một cộng đồng người có chung huyết thống”."
+  },
+  {
+    "question": "Hình thức cộng đồng người nào hình thành khi xã hội loài người đã bắt đầu có sự phân chia thành giai cấp?",
+    "answers": [
+      "Bộ lạc",
+      "Thị tộc",
+      "Bộ tộc",
+      "Dân tộc"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Bộ tộc”."
+  },
+  {
+    "question": "Sự hình thành một cách phổ biến các dân tộc ở châu Âu gắn với giai đoạn lịch sử nào?",
+    "answers": [
+      "Xã hội phong kiến",
+      "Giai đoạn hình thành chủ nghĩa tư bản",
+      "Giai đoạn phát triển phong trào công nhân và cách mạng vô sản",
+      "Xã hội cổ đại"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Giai đoạn hình thành chủ nghĩa tư bản”."
+  },
+  {
+    "question": "Đặc điểm nào sau đây thuộc về chủng tộc?",
+    "answers": [
+      "Cùng cư trú trên một khu vực địa lý",
+      "Cùng một sở thích nhất định",
+      "Cùng một tính chất về mặt sinh học",
+      "Cùng một quốc gia, dân tộc"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Cùng một tính chất về mặt sinh học”."
+  },
+  {
+    "question": "Đặc trưng để nhận diện một dân tộc là yếu tố nào sau đây?",
+    "answers": [
+      "Phương thức sản xuất thống trị trong dân tộc",
+      "Giai cấp lãnh đạo xã hội và dân tộc",
+      "Xu thế của thời đại",
+      "Đặc điểm ngôn ngữ, văn hoá"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Đặc điểm ngôn ngữ, văn hoá”."
+  },
+  {
+    "question": "Trong các mối liên hệ cộng đồng sau đây, hình thức liên hệ nào là quan trọng nhất, quy định đặc trưng của dân tộc?",
+    "answers": [
+      "Cộng đồng lãnh thổ",
+      "Cộng đồng kinh tế",
+      "Cộng đồng ngôn ngữ",
+      "Cộng đồng văn hóa"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Cộng đồng lãnh thổ”."
+  },
+  {
+    "question": "Đặc trưng nào dễ biến động nhất trong các đặc trưng của dân tộc?",
+    "answers": [
+      "Sinh hoạt kinh tế",
+      "Lãnh thổ",
+      "Ngôn ngữ",
+      "Văn hóa và cấu tạo tâm lý"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Lãnh thổ”."
+  },
+  {
+    "question": "Yếu tố dân tộc có vai trò như thế nào trong cuộc đấu tranh giai cấp?",
+    "answers": [
+      "Dân tộc là địa bàn diễn ra cuộc đấu tranh giai cấp.",
+      "Đấu tranh dân tộc quyết định xu hướng của đấu tranh giai cấp.",
+      "Chiến tranh giữa các dân tộc là biểu hiện của đấu tranh giai cấp.",
+      "Cả a và b."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Dân tộc là địa bàn diễn ra cuộc đấu tranh giai cấp”."
+  },
+  {
+    "question": "Những hình thức nào sau đây thể hiện sự ảnh hưởng lẫn nhau giữa các dân tộc?",
+    "answers": [
+      "Chiến tranh.",
+      "Trao đổi hàng hoá.",
+      "Trao đổi văn hoá, khoa học.",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a, b và c”."
+  },
+  {
+    "question": "Trong các hình thức nhà nước dưới đây, hình thức nào là kiểu nhà nước phong kiến?",
+    "answers": [
+      "Quân chủ lập hiến, cộng hoà đại nghị",
+      "Quân chủ tập quyền, quân chủ phân quyền",
+      "Chính thể quân chủ, chính thể cộng hoà",
+      "Độc tài chuyên chế"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Quân chủ tập quyền, quân chủ phân quyền”."
+  },
+  {
+    "question": "Chế độ dân chủ xã hội chủ nghĩa là",
+    "answers": [
+      "Kiểu tổ chức tự quản của nhân dân lao động",
+      "Một hình thức nhà nước",
+      "Cơ quan quyền lực công cộng",
+      "Kiểu tổ chức tự quản của giai cấp vô sản"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Một hình thức nhà nước”."
+  },
+  {
+    "question": "Dân chủ xã hội chủ nghĩa là",
+    "answers": [
+      "dân chủ tuyệt đối",
+      "Dân chủ của nhân dân lao động",
+      "dân chủ của giai cấp vô sản",
+      "dân chủ dựa trên sự lãnh đạo của các chính đảng"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Dân chủ của nhân dân lao động”."
+  },
+  {
+    "question": "Bộ máy cai trị của nhà nước bao gồm những yếu tố nào?",
+    "answers": [
+      "Lực lượng vũ trang chuyên nghiệp và hệ thống luật pháp",
+      "Bộ máy hành chính và hệ thống pháp luật của nó",
+      "Lực lượng vũ trang chuyên nghiệp và bộ máy hành chính",
+      "Quân đội, cảnh sát, toà án"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Lực lượng vũ trang chuyên nghiệp và bộ máy hành chính”."
+  },
+  {
+    "question": "Chức năng nào là cơ bản nhất trong các chức năng sau đây của các nhà nước trong lịch sử?",
+    "answers": [
+      "Chức năng đối nội và chức năng đối ngoại",
+      "Chức năng xã hội",
+      "Chức năng thống trị giai cấp",
+      "Chức năng đối nội"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Chức năng thống trị giai cấp”."
+  },
+  {
+    "question": "Vấn đề cơ bản nhất của chính trị là",
+    "answers": [
+      "Đảng phái chính trị",
+      "Chính quyền nhà nước, quyền lực nhà nước",
+      "Quan hệ giai cấp.",
+      "Lợi ích kinh tế của giai cấp"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Chính quyền nhà nước, quyền lực nhà nước”."
+  },
+  {
+    "question": "Xét đến cùng, nguyên nhân của những hành động chính trị trong xã hội là gì?",
+    "answers": [
+      "Kinh tế",
+      "Chính trị",
+      "Tư tưởng",
+      "Lợi ích"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Kinh tế”."
+  },
+  {
+    "question": "Sự ra đời và tồn tại của nhà nước là",
+    "answers": [
+      "nguyện vọng của giai cấp thống trị",
+      "nguyện vọng của mỗi quốc gia dân tộc",
+      "một tất yếu khách quan do nguyên nhân kinh tế",
+      "do sự phát triển của xã hội"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “một tất yếu khách quan do nguyên nhân kinh tế”."
+  },
+  {
+    "question": "Lựa chọn đáp án sai",
+    "answers": [
+      "Nhà nước là công cụ thống trị của giai cấp thống trị đối với toàn xã hội.",
+      "Nhà nước là cơ quan đứng trên pháp luật",
+      "Nhà nước là cơ quan trọng tài phân xử, hoà giải các xung đột xã hội",
+      "Nhà nước là bộ máy quản lý xã hội"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Nhà nước là cơ quan đứng trên pháp luật”."
+  },
+  {
+    "question": "Lý luận của chủ nghĩa duy vật lịch sử cho rằng nhà nước là",
+    "answers": [
+      "tổ chức chính trị của giai cấp thống trị về mặt kinh tế",
+      "tổ chức của giới tinh hoa trong xã hội",
+      "tổ chức chống lại áp bức, bóc lột",
+      "tổ chức kinh tế"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “tổ chức chính trị của giai cấp thống trị về mặt kinh tế”."
+  },
+  {
+    "question": "Chức năng xã hội của nhà nước được thực hiện với tư cách là",
+    "answers": [
+      "Một tổ chức xã hội",
+      "Một cơ quan công quyền",
+      "Một bộ máy trấn áp",
+      "Một cơ quan pháp chế"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Một cơ quan công quyền”."
+  },
+  {
+    "question": "Chức năng giai cấp (thống trị chính trị) của nhà nước bao gồm",
+    "answers": [
+      "Tổ chức, kiến tạo trật tự xã hội",
+      "Thực hành chuyên chính trấn áp các giai cấp đối lập",
+      "Quản lý xã hội",
+      "Cung cấp dịch vụ xã hội cho người dân"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Thực hành chuyên chính trấn áp các giai cấp đối lập”."
+  },
+  {
+    "question": "Theo quy luật, nhà nước là công cụ của giai cấp mạnh nhất, đó là",
+    "answers": [
+      "Giai cấp đông đảo nhất trong xã hội",
+      "Giai cấp thống trị về kinh tế",
+      "Giai cấp tiến bộ đại diện cho xã hội tương lai",
+      "Giai cấp thống trị về chính trị"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Giai cấp thống trị về kinh tế”."
+  },
+  {
+    "question": "Xây dựng Nhà nước pháp quyền xã hội chủ nghĩa của dân, do dân, vì dân ở nước ta hiện nay cần",
+    "answers": [
+      "Tăng cường sự lãnh đạo của Đảng",
+      "Dân chủ hoá tổ chức và hoạt động của bộ máy nhà nước",
+      "Xây dựng hệ thống luật pháp hoàn chỉnh và phân lập rõ các quyền lập pháp, hành pháp và tư pháp.",
+      "Cả a và b"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a và b”."
+  },
+  {
+    "question": "Để đi đến diệt vong hoàn toàn thì Nhà nước vô sản phải hoàn thành nhiệm vụ lịch sử vĩ đại của mình là",
+    "answers": [
+      "Hoàn thiện chế độ dân chủ.",
+      "Xoá bỏ hoàn toàn giai cấp.",
+      "Xây dựng thành công xã hội cộng sản chủ nghĩa.",
+      "Thiết lập chế độ công hữu về tư liệu sản xuất"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Xây dựng thành công xã hội cộng sản chủ nghĩa”."
+  },
+  {
+    "question": "Thực chất của cách mạng xã hội là gì?",
+    "answers": [
+      "Thay đổi thể chế chính trị này bằng thể chế chính trị khác",
+      "Thay đổi thể chế kinh tế này bằng thể chế kinh tế khác",
+      "Thay đổi hình thái kinh tế – xã hội thấp bằng hình thái kinh tế – xã hội cao hơn.",
+      "Thay đổi chế độ xã hội"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Thay đổi hình thái kinh tế – xã hội thấp bằng hình thái kinh tế – xã hội cao hơn”."
+  },
+  {
+    "question": "Chủ nghĩa duy vật lịch sử cho rằng",
+    "answers": [
+      "Bạo lực cách mạng là một trong những hình thức thực hiện cách mạng xã hội",
+      "Bạo lực cách mạng là hoạt động tất yếu trong bất kỳ cuộc cách mạng xã hội nào.",
+      "Bạo lực cách mạng luôn là sai lầm quá khích của giai cấp thực hiện cách mạng xã hội",
+      "Cách mạng vô sản không thể thành công nhờ bạo lực cách mạng"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Bạo lực cách mạng là một trong những hình thức thực hiện cách mạng xã hội”."
+  },
+  {
+    "question": "Đặc trưng chủ yếu của cách mạng xã hội theo nghĩa hẹp là gì?",
+    "answers": [
+      "Sự thay đổi về hệ tư tưởng nói riêng và toàn bộ đời sống tinh thần xã hội nói chung.",
+      "Sự thay đổi về toàn bộ đời sống tinh thần của xã hội nói chung",
+      "Sự thay đổi chính quyền nhà nước từ tay giai cấp thống trị phản động sang tay giai cấp cách mạng.",
+      "Sự thay đổi đời sống vật chất và đời sống tinh thần của xã hội nói chung."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Sự thay đổi chính quyền nhà nước từ tay giai cấp thống trị phản động sang tay giai cấp cách mạng”."
+  },
+  {
+    "question": "Nguyên nhân sâu xa nhất của cách mạng xã hội là gì?",
+    "answers": [
+      "Mâu thuẫn giữa các giai cấp về chính trị",
+      "Mâu thuẫn giữa các giai cấp về kinh tế",
+      "Mâu thuẫn giữa các giai cấp về tư tưởng",
+      "Mâu thuẫn giữa các giai cấp về tâm lý"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Mâu thuẫn giữa các giai cấp về kinh tế”."
+  },
+  {
+    "question": "Điều kiện khách quan của cách mạng xã hội là gì?",
+    "answers": [
+      "Phương pháp cách mạng",
+      "Thời cơ cách mạng",
+      "Tình thế cách mạng",
+      "Lực lượng cách mạng"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Thời cơ cách mạng”."
+  },
+  {
+    "question": "Cách mạng xã hội có vai trò gì đối với tiến hóa xã hội?",
+    "answers": [
+      "Cách mạng xã hội mở đường cho quá trình tiến hoá xã hội lên giai đoạn cao hơn.",
+      "Cách mạng xã hội làm gián đoạn quá trình tiến hoá xã hội",
+      "Cách mạng xã hội không có quan hệ với tiến hoá xã hội",
+      "Cách mạng xã hội phủ định tiến hoá xã hội"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Cách mạng xã hội mở đường cho quá trình tiến hoá xã hội lên giai đoạn cao hơn”."
+  },
+  {
+    "question": "Vai trò của cải cách xã hội đối với cách mạng xã hội là gì?",
+    "answers": [
+      "Cải cách xã hội không có quan hệ với cách mạng xã hội",
+      "Cải cách xã hội thúc đẩy quá trình tiến hóa xã hội, từ đó tạo tiền đề cho cách mạng xã hội",
+      "Cải cách xã hội của lực lượng xã hội tiến bộ và trong hoàn cảnh nhất định trở thành bộ phận hợp thành của cách mạng xã hội.",
+      "Cải cách xã hội ngăn cản cách mạng xã hội"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Cải cách xã hội của lực lượng xã hội tiến bộ và trong hoàn cảnh nhất định trở thành bộ phận hợp thành của cách mạng xã hội”."
+  },
+  {
+    "question": "Cuộc cách mạng xã hội thứ 2 trong lịch sử các nước châu Âu đã thực hiện bước chuyển xã hội từ",
+    "answers": [
+      "Hình thái kinh tế – xã hội chiếm hữu nô lệ lên hình thái kinh tế – xã hội phong kiến.",
+      "Hình thái kinh tế – xã hội phong kiến lên hình thái kinh tế -xã hội tư bản tư bản chủ nghĩa.",
+      "Hình thái kinh tế – xã hội tư bản lên hình thái kinh tế-xã hội cộng sản chủ nghĩa",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Hình thái kinh tế – xã hội chiếm hữu nô lệ lên hình thái kinh tế – xã hội phong kiến”."
+  },
+  {
+    "question": "Quá trình phát triển của cách mạng xã hội là quá trình",
+    "answers": [
+      "Liên minh giữa các giai cấp",
+      "Kết hợp biện chứng giữa các điều kiện kinh tế, chính trị, xã hội",
+      "Kết hợp biện chứng giữa điều kiện khách quan và nhân tố chủ quan",
+      "Liên minh giữa giai cấp với dân tộc"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Kết hợp biện chứng giữa điều kiện khách quan và nhân tố chủ quan”."
+  },
+  {
+    "question": "Quan điểm đặc trưng của chủ nghĩa cải lương về cách mạng xã hội là",
+    "answers": [
+      "Chủ trương cải cách riêng lẻ trong khuôn khổ chủ nghĩa tư bản",
+      "Chủ trương thay đổi chủ nghĩa tư bản bằng phương pháp hoà bình",
+      "Từ bỏ đấu tranh giai cấp và cách mạng xã hội",
+      "Tiến hành hoạt động đấu tranh kinh tế"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Từ bỏ đấu tranh giai cấp và cách mạng xã hội”."
+  },
+  {
+    "question": "Trong cách mạng vô sản, nội dung nào xét đến cùng đóng vai trò quyết định?",
+    "answers": [
+      "Kinh tế",
+      "Chính trị",
+      "Văn hoá",
+      "Tư tưởng"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Kinh tế”."
+  },
+  {
+    "question": "Cuộc cách mạng vô sản khác các cuộc cách mạng trước đó trong lịch sử ở nội dung nào?",
+    "answers": [
+      "Thủ tiêu sự thống trị của giai cấp thống trị phản động",
+      "Thủ tiêu sở hữu tư nhân nói chung",
+      "Thủ tiêu chế độ tư hữu về tư liệu sản xuất",
+      "Thủ tiêu nhà nước tư sản"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Thủ tiêu chế độ tư hữu về tư liệu sản xuất”."
+  },
+  {
+    "question": "Cuộc cách mạng tháng 8/1945 ở nước ta do Đảng cộng sản Đông Dương lãnh đạo là cuộc cách mạng gì?",
+    "answers": [
+      "Là cuộc cách mạng vô sản",
+      "Là cách mạng dân tộc dân chủ nhân dân",
+      "Là cuộc cách mạng xóa bỏ giai cấp",
+      "Chỉ là cuộc đấu tranh giải phóng dân tộc khỏi ách áp bức của bọn thực dân, phát xít"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Là cách mạng dân tộc dân chủ nhân dân”."
+  },
+  {
+    "question": "Yếu tố giữ vai trò quan trọng nhất của nhân tố chủ quan trong cách mạng vô sản là gì?",
+    "answers": [
+      "Đảng của giai cấp công nhân có đường lối cách mạng đúng đắn",
+      "Tính tích cực chính trị của quần chúng",
+      "Lực lượng tham gia cách mạng",
+      "Khối đoàn kết công – nông – trí thức."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Tính tích cực chính trị của quần chúng”."
+  },
+  {
+    "question": "Theo quan điểm của chủ nghĩa Mác-Lênin điều kiện không thể thiếu để cuộc cách mạng xã hội đạt tới thành công là gì?",
+    "answers": [
+      "Bạo lực cách mạng",
+      "Sự giúp đỡ quốc tế",
+      "Giai cấp thống trị phản động tự nó không duy trì được địa vị thống trị",
+      "Sự khủng hoảng của chế độ xã hội cũ"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Giai cấp thống trị phản động tự nó không duy trì được địa vị thống trị”."
+  },
+  {
+    "question": "Lịch sử xã hội loài người diễn ra một cách phức tạp là do nguyên nhân nào?",
+    "answers": [
+      "Tác động của quy luật lợi ích",
+      "Chi phối của quy luật chung của xã hội",
+      "Chi phối bởi đặc thù truyền thống văn hoá của mỗi quốc gia dân tộc.",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a, b và c”."
+  },
+  {
+    "question": "Cơ sở lý luận nền tảng của đường lối xây dựng chủ nghĩa xã hội của Đảng Cộng sản Việt Nam là",
+    "answers": [
+      "Học thuyết về giai cấp và đấu tranh giai cấp của triết học Mác-Lênin",
+      "Phép biện chứng duy vật",
+      "Học thuyết về hình thái kinh tế – xã hội",
+      "Chủ nghĩa duy vật lịch sử"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Học thuyết về hình thái kinh tế – xã hội”."
+  },
+  {
+    "question": "Tồn tại xã hội là",
+    "answers": [
+      "Toàn bộ sinh hoạt tinh thần và những điều kiện sinh hoạt tinh thần của xã hội",
+      "Toàn bộ sinh hoạt sống và những điều kiện sống của con người",
+      "Toàn bộ sinh hoạt vật chất và những điều kiện sinh hoạt vật chất của xã hội",
+      "Quá trình xây dựng và phát triển xã hội loài người"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Toàn bộ sinh hoạt vật chất và những điều kiện sinh hoạt vật chất của xã hội”."
+  },
+  {
+    "question": "Yếu tố nào sau đây không thuộc tồn tại xã hôi?",
+    "answers": [
+      "Điều kiện tự nhiên",
+      "Dân số và mật độ dân số",
+      "Tâm lý xã hội",
+      "Phương thức sản xuất vật chất"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Tâm lý xã hội”."
+  },
+  {
+    "question": "Yếu tố nào giữ vai trò quyết định trong tồn tại xã hội?",
+    "answers": [
+      "Điều kiện tự nhiên",
+      "Dân số và mật độ dân số",
+      "Phương thức sản xuất",
+      "Hoàn cảnh địa lý"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Phương thức sản xuất”."
+  },
+  {
+    "question": "Quan niệm nào về sản xuất vật chất sau đây là đúng?",
+    "answers": [
+      "Sản xuất vật chất là quá trình con người tác động vào tự nhiên làm biến đổi tự nhiên",
+      "Sản xuất vật chất là quá trình tạo ra của cải vật chất",
+      "Sản xuất vật chất là quá trình sản xuất xã hội",
+      "Sản xuất vật chất là quá trình tạo ra tư liệu sản xuất"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Sản xuất vật chất là quá trình tạo ra của cải vật chất”."
+  },
+  {
+    "question": "Điều kiện dân số - một yếu tố của tồn tại xã hội được xem xét trên các mặt nào?",
+    "answers": [
+      "Số lượng và chất lượng dân số",
+      "Dân số và mật độ dân số",
+      "Đặc điểm dân số",
+      "Cả a và c"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Dân số và mật độ dân số”."
+  },
+  {
+    "question": "Yếu tố nào sau đây không thuộc ý thức xã hội?",
+    "answers": [
+      "Tâm lý xã hội",
+      "Tập quán sinh hoạt của dân cư",
+      "Hệ tư tưởng xã hội",
+      "Ý thức thường ngày"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Tập quán sinh hoạt của dân cư”."
+  },
+  {
+    "question": "Điều kiện cơ bản để ý thức xã hội tác động trở lại tồn tại xã hội là gì?",
+    "answers": [
+      "Ý thức xã hội phải phù hợp với tồn tại xã hội",
+      "Hoạt động thực tiễn của con người",
+      "Điều kiện vật chất bảo đảm",
+      "Ý thức xã hội phải “vượt trước” tồn tại xã hội"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Hoạt động thực tiễn của con người”."
+  },
+  {
+    "question": "Trong xã hội có giai cấp, ý thức xã hội mang tính giai cấp là do",
+    "answers": [
+      "Sự truyền bá tư tưởng của giai cấp thống trị.",
+      "Các giai cấp có quan niệm khác nhau về giá trị.",
+      "Điều kiện sinh hoạt vật chất, địa vị và lợi ích của các giai cấp khác nhau.",
+      "Các giai cấp có quan niệm khác nhau về đạo đức, tôn giáo"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Điều kiện sinh hoạt vật chất, địa vị và lợi ích của các giai cấp khác nhau”."
+  },
+  {
+    "question": "Các tính chất nào sau đây không thuộc biểu hiện tính độc lập tương đối của ý thức xã hội?",
+    "answers": [
+      "Tính lạc hậu.",
+      "Tính lệ thuộc.",
+      "Tính tích cực sáng tạo.",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a, b và c”."
+  },
+  {
+    "question": "Vai trò của ý thức cá nhân đối với ý thức xã hội",
+    "answers": [
+      "Ý thức cá nhân là phương thức tồn tại và biểu hiện của ý thức xã hội",
+      "Tổng số ý thức cá nhân bằng ý thức xã hội",
+      "Ý thức cá nhân độc lập với ý thức xã hội",
+      "Ý thức cá nhân quyết định ý thức xã hội"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Ý thức cá nhân là phương thức tồn tại và biểu hiện của ý thức xã hội”."
+  },
+  {
+    "question": "Căn cứ nào lý giải một hiện tượng ý thức cụ thể?",
+    "answers": [
+      "Quan điểm của (cá nhân, tầng lớp, giai cấp) với tư cách là chủ thể của hiện tượng ý thức ấy",
+      "Tồn tại xã hội cụ thể làm nảy sinh hiện tượng ý thức cụ thể cần lý giải",
+      "Hệ ý thức của giai cấp.",
+      "Cả a và b"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Tồn tại xã hội cụ thể làm nảy sinh hiện tượng ý thức cụ thể cần lý giải”."
+  },
+  {
+    "question": "Ý thức lý luận ra đời từ",
+    "answers": [
+      "Sự phát triển cao của ý thức xã hội thông thường",
+      "Sản phẩm tư duy của các nhà lý luận, các nhà khoa học",
+      "Sự khái quát tổng kết từ kinh nghiệm của ý thức xã hội thông thường",
+      "Thực tế xã hội"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Sự khái quát tổng kết từ kinh nghiệm của ý thức xã hội thông thường”."
+  },
+  {
+    "question": "Ý thức xã hội không phụ thuộc vào tồn tại xã hội một cách thụ động mà có tác động tích cực trở lại tồn tại xã hội, đó là sự thể hiện",
+    "answers": [
+      "Tính độc lập tương đối của ý thức xã hội.",
+      "Tính hướng đích của ý thức xã hội.",
+      "Tính vượt trước của ý thức xã hội.",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Tính độc lập tương đối của ý thức xã hội”."
+  },
+  {
+    "question": "Đặc điểm của ý thức xã hội thông thường là",
+    "answers": [
+      "Có tính chỉnh thể, hệ thống và rất phong phú sinh động.",
+      "Phản ánh trực tiếp đời sống hàng ngày và rất phong phú sinh động.",
+      "Phản ánh bản chất sự vật và có tính hệ thống.",
+      "Phản ánh gián tiếp hiện thực và rất phong phú sinh động."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Phản ánh trực tiếp đời sống hàng ngày và rất phong phú sinh động”."
+  },
+  {
+    "question": "Theo C.Mác tôn giáo là",
+    "answers": [
+      "không thể thiếu trong đời sống con người.",
+      "sự phản ánh hiện thực một cách hư ảo",
+      "thỏa mãn nhu cầu thiết yếu của con người",
+      "là vũ khí của giai cấp cách mạng"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “sự phản ánh hiện thực một cách hư ảo”."
+  },
+  {
+    "question": "Đặc trưng phản ánh của nghệ thuật là",
+    "answers": [
+      "Nghệ thuật phản ánh hiện thực một cách gián tiếp.",
+      "Nghệ thuật phản ánh hiện thực một cách chỉnh thể.",
+      "Nghệ thuật phản ánh hiện thực bằng hình tượng nghệ thuật.",
+      "Nghệ thuật phản ánh hiện thực một cách trực tiếp"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Nghệ thuật phản ánh hiện thực bằng hình tượng nghệ thuật”."
+  },
+  {
+    "question": "Đặc trưng phản ánh của khoa học là",
+    "answers": [
+      "Khoa học phản ánh hiện thực bằng hệ thống phạm trù, quy luật của mình.",
+      "Khoa học phản ánh hiện thực bằng tư duy trừu tượng.",
+      "Khoa học phản ánh hiện thực bằng tổng kết kinh nghiệm.",
+      "Khoa học phản ánh hiện thực bằng tư duy khái quát."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Khoa học phản ánh hiện thực bằng hệ thống phạm trù, quy luật của mình”."
+  },
+  {
+    "question": "Tính chất chung của khoa học là",
+    "answers": [
+      "Tính hệ thống, tính có căn cứ và tính quy luật",
+      "Tính chính trị, giai cấp, tính hệ thống và tính có căn cứ.",
+      "Tính đối tượng và tính khách quan, tính hệ thống và tính có căn cứ.",
+      "Tính quy luật, tính chính trị, giai cấp"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Tính đối tượng và tính khách quan, tính hệ thống và tính có căn cứ”."
+  },
+  {
+    "question": "Bản chất của cách mạng khoa học kỹ thuật hiện đại là",
+    "answers": [
+      "Tạo ra bước nhảy vọt về chất trong quá trình sản xuất vật chất.",
+      "Cải biến về chất các lực lượng sản xuất hiện có trên cơ sở biến khoa học thành lực lượng sản xuất trực tiếp.",
+      "Tạo ra nền kinh tế tri thức.",
+      "Tạo ra năng suất lao động cao"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Cải biến về chất các lực lượng sản xuất hiện có trên cơ sở biến khoa học thành lực lượng sản xuất trực tiếp”."
+  },
+  {
+    "question": "Chính trị là",
+    "answers": [
+      "Mối quan hệ giữa các tầng lớp trong xã hội.",
+      "Mối quan hệ giữa các quốc gia, dân tộc.",
+      "Mối quan hệ giữa các giai cấp.",
+      "Mối quan hệ giữa giai cấp thống trị và giai cấp bị thống trị"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Mối quan hệ giữa giai cấp thống trị và giai cấp bị thống trị”."
+  },
+  {
+    "question": "Nguồn gốc của ngôn ngữ là",
+    "answers": [
+      "Tự nhiên.",
+      "Lao động.",
+      "Nhu cầu trao đổi, giao tiếp.",
+      "Đấng siêu nhiên, thần thánh"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Lao động”."
+  },
+  {
+    "question": "Đặc trưng của ý thức chính trị là",
+    "answers": [
+      "Thái độ đối với đấu tranh giai cấp.",
+      "Thể hiện lợi ích giai cấp một cách trực tiếp.",
+      "Thể hiện quan điểm về quyền lực.",
+      "Thái độ chính trị của các đảng phái, tổ chức chính trị"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Thể hiện lợi ích giai cấp một cách trực tiếp”."
+  },
+  {
+    "question": "Bản chất hệ tư tưởng chính trị xã hội chủ nghĩa là",
+    "answers": [
+      "Là ý thức chính trị của toàn xã hội.",
+      "Là ý thức chính trị của nhân dân lao động.",
+      "Là ý thức chính trị của giai cấp công nhân.",
+      "Là ý thức chính trị của dân tộc"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Là ý thức chính trị của giai cấp công nhân”."
+  },
+  {
+    "question": "Nguồn gốc của đạo đức là",
+    "answers": [
+      "Bắt nguồn từ tôn giáo.",
+      "Bắt nguồn từ thực tiễn xã hội.",
+      "Bắt nguồn từ bản năng sinh tồn.",
+      "Bắt nguồn từ đời sống tinh thần"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Bắt nguồn từ thực tiễn xã hội”."
+  },
+  {
+    "question": "Các yếu tố cơ bản cấu thành đạo đức là",
+    "answers": [
+      "Ý thức đạo đức.",
+      "Quan hệ đạo đức và thực hiện đạo đức.",
+      "Tri thức đạo đức.",
+      "Cả a và b"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a và b”."
+  },
+  {
+    "question": "Trong tư tưởng truyền thống Việt Nam, vấn đề nào về con người được quan tâm nhiều nhất?",
+    "answers": [
+      "Vấn đề bản chất con người.",
+      "Vấn đề đạo lý làm người.",
+      "Vấn đề quan hệ giữa linh hồn và thể xác.",
+      "Vấn đề bản chất cuộc sống"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Vấn đề đạo lý làm người”."
+  },
+  {
+    "question": "Nguyên nhân tính lạc hậu của ý thức xã hội là",
+    "answers": [
+      "Do ý thức xã hội không phản ánh kịp sự phát triển của cuộc sống.",
+      "Do sức ỳ của tâm lý xã hội.",
+      "Do đấu tranh tư tưởng giữa các giai cấp.",
+      "Cả a và b"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a và b”."
+  },
+  {
+    "question": "Tôn giáo có các nguồn gốc là",
+    "answers": [
+      "Nguồn gốc xã hội.",
+      "Nguồn gốc tâm lý",
+      "Nguồn gốc nhận thức.",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a, b và c”."
+  },
+  {
+    "question": "Đâu là đặc trưng chủ yếu nhất của ý thức tôn giáo?",
+    "answers": [
+      "Sự phản kháng đối với bất công xã hội.",
+      "Niềm tin vào sự tồn tại của các đấng siêu nhiên thần thánh.",
+      "Khát vọng được giải thoát.",
+      "Phản ánh không đúng hiện thực khách quan"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Niềm tin vào sự tồn tại của các đấng siêu nhiên thần thánh”."
+  },
+  {
+    "question": "Điều kiện để chuyển hoá nhận thức đạo đức thành hành vi đạo đức là",
+    "answers": [
+      "Quan hệ đạo đức.",
+      "Tình cảm, niềm tin đạo đức.",
+      "Tri thức đạo đức.",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Tình cảm, niềm tin đạo đức”."
+  },
+  {
+    "question": "Ý thức pháp quyền là toàn bộ những quan điểm, tư tưởng và thái độ của một giai cấp về",
+    "answers": [
+      "Bản chất và vai trò của pháp luật.",
+      "Tính hợp pháp hay không hợp pháp trong hành vi của con người.",
+      "Về quyền lợi và nghĩa vụ của mỗi thành viên trong xã hội.",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a, b và c”."
+  },
+  {
+    "question": "Những giá trị phổ biến nhất của ý thức đạo đức là",
+    "answers": [
+      "Mang tính dân tộc",
+      "Mang tính nhân loại",
+      "Mang tính giai cấp",
+      "Mang tính xã hội"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Mang tính nhân loại”."
+  },
+  {
+    "question": "Yêu cầu cơ bản của tính khoa học khi xem xét lịch sử xã hội là",
+    "answers": [
+      "Phải mô tả được lịch sử xã hội cụ thể",
+      "Phải nghiên cứu các quá trình hiện thực, các quy luật chi phối sự vận động phát triển của lịch sử xã hội",
+      "Phải tìm ra tính phức tạp của quá trình lịch sử.",
+      "Phải mang tính hệ thống"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Phải nghiên cứu các quá trình hiện thực, các quy luật chi phối sự vận động phát triển của lịch sử xã hội”."
+  },
+  {
+    "question": "Đặc điểm nổi bật của tâm lý xã hội là",
+    "answers": [
+      "Phản ánh khái quát đời sống xã hội",
+      "Phản ánh trực tiếp điều kiện sinh sống hàng ngày, phản ánh bề mặt của tồn tại xã hội",
+      "Phản ánh bản chất của tồn tại xã hội",
+      "Phản ánh tình cảm, tâm trạng của một cộng đồng người"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Phản ánh trực tiếp điều kiện sinh sống hàng ngày, phản ánh bề mặt của tồn tại xã hội”."
+  },
+  {
+    "question": "Theo Ph. Ăngghen, vai trò quyết định của lao động đối với quá trình biến vượn thành người là gì?",
+    "answers": [
+      "Lao động làm cho bàn tay con người hoàn thiện hơn",
+      "Lao động làm cho não người phát triển hơn",
+      "Lao động là nguồn gốc hình thành ngôn ngữ",
+      "Lao động tạo ra nguồn thức ăn nhiều hơn"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Lao động là nguồn gốc hình thành ngôn ngữ”."
+  },
+  {
+    "question": "Để có kết luận về vai trò quyết định của lao động trong việc hình thành con người Ph. Ăngghen đã dựa trên cơ sở lý thuyết nào?",
+    "answers": [
+      "Quan điểm của Đac-uyn trong tác phẩm “Nguồn gốc loài người”.",
+      "Quan điểm duy vật lịch sử",
+      "Quan điểm “lao động là nguồn gốc của mọi của cải” của các nhà kinh tế chính trị học Anh.",
+      "Suy luận chủ quan của Ph. Ăngghen"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Quan điểm duy vật lịch sử”."
+  },
+  {
+    "question": "Chủ nghĩa duy vật lịch sử khẳng định điều gì?",
+    "answers": [
+      "Con người làm thay đổi hoàn cảnh",
+      "Con người là sản phẩm của lịch sử",
+      "Bản chất con người không đổi trong lịch sử xã hội loài người",
+      "Cả a và b"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a và b”."
+  },
+  {
+    "question": "Điểm xuất phát để nghiên cứu xã hội và lịch sử của C.Mác, Ph.Ăngghen là",
+    "answers": [
+      "Con người hiện thực",
+      "Con người hiện thực trong hoạt động sản xuất vật chất",
+      "Các quan hệ xã hội",
+      "Đời sống xã hội"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Con người hiện thực trong hoạt động sản xuất vật chất”."
+  },
+  {
+    "question": "Chọn câu của C.Mác định nghĩa bản chất con người trong các phương án sau",
+    "answers": [
+      "Trong tính hiện thực, bản chất con người là tổng hoà các mối quan hệ xã hội.",
+      "Trong tính hiện thực của nó, bản chất con người là tổng hoà tất cả các mối quan hệ xã hội.",
+      "Bản chất con người không phải là cái trừu tượng cố hữu của cá nhân riêng biệt. Trong tính hiện thực của nó, bản chất con người là tổng hoà những mối quan hệ xã hội.",
+      "Con người là động vật xã hội."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Bản chất con người không phải là cái trừu tượng cố hữu của cá nhân riêng biệt. Trong tính hiện thực của nó, bản chất con người là tổng hoà những mối quan hệ xã hội”."
+  },
+  {
+    "question": "Bản chất của con người được quyết định bởi cái gì?",
+    "answers": [
+      "Các quan hệ xã hội",
+      "Nỗ lực của mỗi cá nhân",
+      "Giáo dục của gia đình và nhà trường",
+      "Hoàn cảnh xã hội"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Các quan hệ xã hội”."
+  },
+  {
+    "question": "Con người là thể thống nhất của các mặt cơ bản nào?",
+    "answers": [
+      "Sinh học",
+      "Tâm lý",
+      "Xã hội",
+      "Cả a và c"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a và c”."
+  },
+  {
+    "question": "Lực lượng quyết định sự phát triển của lịch sử là",
+    "answers": [
+      "Nhân dân",
+      "Quần chúng nhân dân",
+      "Vĩ nhân, lãnh tụ",
+      "Các nhà khoa học"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Quần chúng nhân dân”."
+  },
+  {
+    "question": "Hạt nhân cơ bản của quần chúng nhân dân là",
+    "answers": [
+      "Các giai cấp, tầng lớp thúc đẩy sự tiến bộ xã hội.",
+      "Những người lao động sản xuất ra của cải vật chất",
+      "Những người chống lại giai cấp thống trị phản động",
+      "Những người nghèo khổ"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Những người lao động sản xuất ra của cải vật chất”."
+  },
+  {
+    "question": "Nền tảng của quan hệ giữa cá nhân và xã hội là gì?",
+    "answers": [
+      "Quan hệ chính trị",
+      "Quan hệ lợi ích",
+      "Quan hệ pháp quyền",
+      "Quan hệ đạo đức"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Quan hệ lợi ích”."
+  },
+  {
+    "question": "Nội dung nào sau đây phản ánh không đúng vai trò phương diện xã hội của con người?",
+    "answers": [
+      "Là tiền đề tồn tại của con người",
+      "Cải tạo nâng cao mặt sinh vật",
+      "Quyết định bản chất xã hội của con người",
+      "Phân biệt sự khác nhau căn bản giữa người với động vật"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đáp án đúng là “Là tiền đề tồn tại của con người”."
+  },
+  {
+    "question": "Hạt nhân của nhân cách là gì?",
+    "answers": [
+      "“ Cái tôi” cá nhân",
+      "Cá tính.",
+      "Thế giới quan cá nhân.",
+      "Tự ý thức"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Thế giới quan cá nhân”."
+  },
+  {
+    "question": "Cá nhân là sản phẩm của xã hội theo nghĩa",
+    "answers": [
+      "Mỗi cá nhân ra đời, tồn tại trong những mối quan hệ xã hội nhất định",
+      "Xã hội là môi trường, điều kiện, phương tiện để phát triển cá nhân",
+      "Xã hội quy định nhu cầu, phương hướng phát triển của cá nhân",
+      "Cả a, b và c"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “Cả a, b và c”."
+  },
+  {
+    "question": "Bản chất giải phóng con người là",
+    "answers": [
+      "giải phóng con người khỏi nghĩa vụ lao động",
+      "giải phóng con người khỏi lao động cưỡng bức",
+      "tạo điều kiện để người lao động có năng suất lao động cao",
+      "giải phóng con người khỏi mọi áp bức, bóc lột"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Đáp án đúng là “giải phóng con người khỏi mọi áp bức, bóc lột”."
+  },
+  {
+    "question": "Cống hiến quan trọng nhất của triết học Mác về bản chất con người",
+    "answers": [
+      "Vạch ra bản chất con người là chủ thể sáng tạo lịch sử.",
+      "Vạch ra vai trò của quan hệ xã hội trong việc hình thành bản chất con người.",
+      "Vạch ra hai mặt cơ bản tạo thành bản chất con người là cái sinh vật và cái xã hội.",
+      "Vạch ra bản chất con người vừa là sản phẩm của hoàn cảnh, vừa là chủ thể của hoàn cảnh"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Đáp án đúng là “Vạch ra vai trò của quan hệ xã hội trong việc hình thành bản chất con người”."
+  },
+  {
+    "question": "Cá nhân, theo C. Mác, là “ thực thể xã hội” được hiểu theo nghĩa nào?",
+    "answers": [
+      "Cá nhân đồng nhất với xã hội.",
+      "Cá nhân sáng tạo xã hội.",
+      "Cá nhân tồn tại đơn nhất, hiện thực là sản phẩm của xã hội.",
+      "Cá nhân tồn tại độc lập với xã hội"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Đáp án đúng là “Cá nhân tồn tại đơn nhất, hiện thực là sản phẩm của xã hội”."
+  }
+]

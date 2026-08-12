@@ -1,0 +1,639 @@
+[
+  {
+    "question": "Triết học là gì?",
+    "answers": [
+      "Triết học là tri thức về thế giới tự nhiên",
+      "Triết học là tri thức về tự nhiên và xã hội",
+      "Triết học là tri thức lý luận của con người về thế giới",
+      "Triết học là hệ thống tri thức lý luận chung nhất của con người về thế giới và vị trí của con người trong thế giới"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Triết học là hệ thống tri thức lý luận chung nhất về thế giới và vị trí của con người trong thế giới."
+  },
+  {
+    "question": "Triết học ra đời vào thời gian nào?",
+    "answers": [
+      "Thiên niên kỷ II trước Công nguyên",
+      "Thế kỷ VIII - thế kỷ VI trước Công nguyên",
+      "Thế kỷ II sau Công nguyên"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Triết học hình thành khoảng thế kỷ VIII đến thế kỷ VI trước Công nguyên."
+  },
+  {
+    "question": "Triết học ra đời sớm nhất ở đâu?",
+    "answers": [
+      "Châu Mỹ, Châu Phi , Nga",
+      "Ấn Độ, Trung Quốc, Hy Lạp",
+      "Ai Cập, Châu Úc, Anh",
+      "Iran, Ba Lan, Nhật Bản"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Triết học xuất hiện sớm tại các trung tâm văn minh lớn gồm Ấn Độ, Trung Quốc và Hy Lạp."
+  },
+  {
+    "question": "Triết học ra đời trong điều kiện nào?",
+    "answers": [
+      "Ngay từ khi loài người xuất hiện",
+      "Khi con người xuất hiện nhu cầu tìm hiểu về thế giới xung quanh mình",
+      "Tư duy của con người đạt trình độ khái quát cao và xuất hiện tầng lớp lao động trí óc có khả năng hệ thống hóa tri thức của loài người",
+      "Xuất hiện ngôn ngữ và con người có thể trao đổi với nhau"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Triết học ra đời khi tư duy đạt trình độ khái quát cao và có tầng lớp lao động trí óc hệ thống hóa tri thức."
+  },
+  {
+    "question": "Triết học xuất hiện từ đâu ?",
+    "answers": [
+      "Từ thực tiễn, do nhu cầu của thực tiễn",
+      "Từ sự suy tư của con người về bản thân mình",
+      "Từ sự sáng tạo của nhà tư tưởng",
+      "Từ sự vận động của ý muốn chủ quan của con người"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Nguồn gốc của triết học nằm trong thực tiễn và nhu cầu nhận thức, cải tạo thực tiễn của con người."
+  },
+  {
+    "question": "Triết học nghiên cứu thế giới như thế nào?",
+    "answers": [
+      "Như một đối tượng vật chất cụ thể",
+      "Như một hệ đối tượng vật chất nhất định",
+      "Như một chỉnh thể thống nhất",
+      "Như bản sao của thế giới ý niệm"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Triết học xem xét thế giới trong tính chỉnh thể và các mối liên hệ chung nhất."
+  },
+  {
+    "question": "Đâu không phải là yếu tố chủ yếu cấu thành thế giới quan ?",
+    "answers": [
+      "tiềm thức",
+      "tri thức",
+      "niềm tin",
+      "lý tưởng"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Tiềm thức không được xem là một trong các yếu tố chủ yếu cấu thành thế giới quan."
+  },
+  {
+    "question": "Trong các yếu tố sau, yếu tố nào giữ vai trò hạt nhân, là cơ sở hình thành thế giới quan?",
+    "answers": [
+      "tri thức",
+      "niềm tin",
+      "lý tưởng",
+      "Tiềm thức"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Tri thức là cơ sở trực tiếp để hình thành và phát triển thế giới quan."
+  },
+  {
+    "question": "Triết học có vai trò như thế nào?",
+    "answers": [
+      "Khoa học của các khoa học",
+      "Hạt nhân của thế giới quan",
+      "Toàn bộ thế giới quan của con người",
+      "Hệ tư tưởng của con người"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Triết học giữ vai trò hạt nhân lý luận của thế giới quan."
+  },
+  {
+    "question": "Hãy sắp xếp theo trình tự xuất hiện từ sớm nhất đến muộn nhất các hình thức thế giới quan sau: Triết học, tôn giáo, thần thoại:",
+    "answers": [
+      "Tôn giáo - thần thoại - triết học",
+      "Thần thoại - tôn giáo - triết học",
+      "Triết học - tôn giáo - thần thoại",
+      "Thần thoại - triết học - tôn giáo"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Thần thoại xuất hiện trước, tiếp theo là tôn giáo và sau đó là triết học."
+  },
+  {
+    "question": "Hãy điền cụm từ thích hợp vào chỗ ba chấm: “Vấn đề cơ bản lớn của mọi triết học, đặc biệt là của triết học …, là vấn đề quan hệ giữa tư duy với …”.",
+    "answers": [
+      "hiện đại, tồn tại",
+      "duy vật, thế giới khách quan",
+      "cổ điển Đức, thế giới khách quan",
+      "duy tâm, vật chất"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Câu nói đầy đủ đề cập đến triết học hiện đại và mối quan hệ giữa tư duy với tồn tại."
+  },
+  {
+    "question": "Có mấy vấn đề cơ bản của triết học?",
+    "answers": [
+      "1",
+      "2",
+      "3.",
+      "4."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Triết học có một vấn đề cơ bản, nhưng vấn đề đó gồm hai mặt."
+  },
+  {
+    "question": "Đâu là các hình thức cơ bản của chủ nghĩa duy vật?",
+    "answers": [
+      "Chủ nghĩa duy vật chất phác, chủ nghĩa duy vật siêu hình, chủ nghĩa duy vật biện chứng",
+      "Chủ nghĩa duy vật chất phác, chủ nghĩa duy vật tầm thường, chủ nghĩa duy vật biện chứng",
+      "Chủ nghĩa duy vật tầm thường, chủ nghĩa duy tâm, chủ nghĩa duy vật biện chứng",
+      "Chủ nghĩa duy vật siêu hình, chủ nghĩa không thể biết, chủ nghĩa duy vật chất phác"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Ba hình thức cơ bản là duy vật chất phác, duy vật siêu hình và duy vật biện chứng."
+  },
+  {
+    "question": "Đối tượng của triết học Hy Lạp cổ đại là:",
+    "answers": [
+      "Toàn bộ tri thức của con người, đặc biệt là tri thức khoa học tự nhiên",
+      "Tôn giáo.",
+      "Xã hội loài người.",
+      "Tư duy của con người"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Triết học Hy Lạp cổ đại bao quát toàn bộ tri thức đương thời, đặc biệt là tri thức tự nhiên."
+  },
+  {
+    "question": "Đối tượng của triết học kinh viện là:",
+    "answers": [
+      "Tôn giáo.",
+      "Tự nhiên",
+      "Xã hội loài người",
+      "Tư duy của con người"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Triết học kinh viện thời trung cổ chủ yếu phục vụ và luận giải các giáo lý tôn giáo."
+  },
+  {
+    "question": "Đối tượng nghiên cứu của Triết học Mác - Lênin là:",
+    "answers": [
+      "Giải quyết mối quan hệ giữa vật chất và ý thức trên lập trường duy vật biện chứng và nghiên cứu những quy luật vận động, phát triển chung nhất của của tự nhiên, xã hội, tư duy.",
+      "Những quy luật chung nhất về sự vận động, phát triển của tự nhiên, xã hội, tư duy và sự cấu tạo, tính chất biến đổi của các chất.",
+      "Những quy luật về sự vận động, phát triển của tự nhiên, xã hội và tư duy và vị trí của con người trong thế giới ấy.",
+      "Những quy luật chung nhất về sự vận động, phát triển của tự nhiên, xã hội, tư duy và những chuẩn mực và hành vi đạo đức của con người trong xã hội."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Triết học Mác - Lênin giải quyết quan hệ vật chất và ý thức trên lập trường duy vật biện chứng, đồng thời nghiên cứu các quy luật chung nhất của tự nhiên, xã hội và tư duy."
+  },
+  {
+    "question": "Triết học Mác ra đời vào thời gian nào?",
+    "answers": [
+      "Những năm 20 của thế kỷ XIX",
+      "Những năm 30 của thế kỷ XIX.",
+      "Những năm 40 của thế kỷ XIX.",
+      "Những năm 50 của thế kỷ XIX."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Triết học Mác hình thành vào những năm 40 của thế kỷ XIX."
+  },
+  {
+    "question": "Triết học Mác - Lênin do ai sáng lập và phát triển?",
+    "answers": [
+      "C. Mác, Ph. Ăngghen; V.I. Lênin.",
+      "C. Mác và Ph. Ăngghen.",
+      "V.I. Lênin",
+      "Ph. Ăngghen."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "C. Mác và Ph. Ăngghen sáng lập, sau đó V.I. Lênin bảo vệ và phát triển triết học Mác."
+  },
+  {
+    "question": "Điều kiện kinh tế - xã hội cho sự ra đời của triết học Mác - Lênin?",
+    "answers": [
+      "Phương thức sản xuất tư bản chủ nghĩa được củng cố và phát triển.",
+      "Giai cấp vô sản ra đời và trở thành lực lượng chính trị - xã hội độc lập",
+      "Giai cấp tư sản đã trở nên bảo thủ.",
+      "cả a, b, c.",
+      "Điểm a và b."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Sự phát triển của chủ nghĩa tư bản, sự trưởng thành của giai cấp vô sản và tính bảo thủ của giai cấp tư sản đều là các điều kiện kinh tế - xã hội liên quan."
+  },
+  {
+    "question": "Nguồn gốc lý luận trực tiếp của triết học Mác là gì?",
+    "answers": [
+      "Chủ nghĩa duy vật Khai sáng Pháp",
+      "Triết học cổ điển Đức",
+      "Kinh tế chính trị cổ điển Anh",
+      "Chủ nghĩa xã hội không tưởng Pháp và Anh"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Nguồn gốc lý luận trực tiếp về triết học của chủ nghĩa Mác là triết học cổ điển Đức."
+  },
+  {
+    "question": "Khẳng định nào sau đây là sai?",
+    "answers": [
+      "Triết học Mác là sự kết hợp phép biện chứng của Hêghen và chủ nghĩa duy vật của Phoi-ơ bắc",
+      "Triết học Mác có sự thống nhất giữa phương pháp biện chứng và thế giới quan duy vật.",
+      "Triết học Mác kế thừa và cải tạo phép biện chứng của Hêghen trên cơ sở duy vật.",
+      "Triết học Mác kế thừa tinh thần duy vật trong triết học Phoibắc."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Triết học Mác không phải phép cộng cơ học giữa phép biện chứng Hêghen và chủ nghĩa duy vật Phoi-ơ-bắc, mà là sự kế thừa có phê phán và cải tạo căn bản."
+  },
+  {
+    "question": "Khẳng định nào sau đây là đúng?",
+    "answers": [
+      "Trong triết học Mác, phép biện chứng và chủ nghĩa duy vật thống nhất với nhau.",
+      "Triết học Mác là sự kết hợp phép biện chứng của Hêghen với chủ nghĩa duy vật của Phoi-ơ bắc",
+      "Trong triết học Mác, phép biện chứng tách rời với chủ nghĩa duy vật.",
+      "Triết học Mác là triết học duy vật siêu hình"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Trong triết học Mác, thế giới quan duy vật và phương pháp biện chứng thống nhất hữu cơ với nhau."
+  },
+  {
+    "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng về tác động của khoa học tự nhiên nửa đầu thế kỷ XIX đối với phương pháp tư duy siêu hình, luận điểm nào sau đây là đúng.",
+    "answers": [
+      "Khoa học tự nhiên nửa đầu thế kỷ XIX phù hợp với phương pháp tư duy siêu hình.",
+      "Khoa học tự nhiên nửa đầu thế kỷ XIX làm bộc lộ tính hạn chế và sự bất lực của phương pháp tư duy siêu hình trong việc nhận thức thế giới",
+      "khoa học tự nhiên khẳng định vai trò tích cực của phương pháp tư duy siêu hình"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Các thành tựu khoa học tự nhiên thế kỷ XIX đã làm lộ rõ hạn chế của cách tư duy siêu hình, tĩnh tại."
+  },
+  {
+    "question": "Những phát minh của khoa học tự nhiên nửa đầu thế kỷ XIX đã cung cấp cơ sở tri thức khoa học cho sự phát triển cái gì?",
+    "answers": [
+      "Phát triển phương pháp tư duy siêu hình",
+      "Phát triển phép biện chứng tự phát",
+      "Phát triển tính thần bí của phép biện chứng duy tâm",
+      "Phát triển tư duy biện chứng thoát khỏi tính tự phát thời kỳ cổ đại và thoát khỏi cái vỏ thần bí của phép biện chứng duy tâm."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Các phát minh mới tạo cơ sở để tư duy biện chứng vượt khỏi tính tự phát cổ đại và vỏ thần bí duy tâm."
+  },
+  {
+    "question": "Khẳng định nào sau đây là đúng",
+    "answers": [
+      "Triết học Mác ra đời vào giữa thế kỷ XIX là một tất yếu lịch sử.",
+      "Triết học Mác ra đời do thiên tài của Mác và Ăngghen.",
+      "Triết học Mác ra đời hoàn toàn ngẫu nhiên.",
+      "Triết học Mác ra đời thực hiện mục đích đã được định trước."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Sự ra đời của triết học Mác là kết quả tất yếu của các điều kiện kinh tế - xã hội, lý luận và khoa học đương thời."
+  },
+  {
+    "question": "Thực chất bước chuyển cách mạng trong triết học do Mác và Ăngghen thực hiện là nội dung nào sau đây?",
+    "answers": [
+      "Thống nhất phép biện chứng và thế giới quan duy vật trong một hệ thống triết học",
+      "Xây dựng được chủ nghĩa duy vật lịch sử",
+      "Xác định đối tượng triết học và khoa học tự nhiên, chấm dứt quan niệm sai lầm cho triết học là khoa học của mọi khoa học.",
+      "Gồm cả a, b và c."
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "Bước chuyển cách mạng bao gồm thống nhất duy vật với biện chứng, xây dựng chủ nghĩa duy vật lịch sử và xác định lại quan hệ giữa triết học với các khoa học cụ thể."
+  },
+  {
+    "question": "Khẳng định nào sau đây là sai",
+    "answers": [
+      "Triết học Mác cho triết học là khoa học của mọi khoa học.",
+      "Theo quan điểm của triết học Mác triết học không thay thế được các khoa học cụ thể.",
+      "Theo quan điểm của triết học Mác sự phát triển của triết học quan hệ chặt chẽ với sự phát triển của khoa học tự nhiên."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Triết học Mác bác bỏ quan niệm triết học là 'khoa học của mọi khoa học'."
+  },
+  {
+    "question": "V.I. Lênin bổ sung và phát triển triết học Mác trong hoàn cảnh nào",
+    "answers": [
+      "Chủ nghĩa tư bản thế giới chưa ra đời.",
+      "Chủ nghĩa tư bản độc quyền ra đời.",
+      "Chủ nghĩa tư bản ở giai đoạn tự do cạnh tranh."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Lênin phát triển triết học Mác trong giai đoạn chủ nghĩa tư bản chuyển sang chủ nghĩa tư bản độc quyền."
+  },
+  {
+    "question": "Triết học Mác là sự thống nhất hữu cơ của:",
+    "answers": [
+      "Thế giới quan duy vật và phương pháp luận biện chứng.",
+      "Thế giới quan duy tâm và phương pháp luận biện chứng.",
+      "Thế giới quan duy vật và phương pháp luận siêu hình.",
+      "Thế giới quan duy tâm và phương pháp luận siêu hình."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Triết học Mác thống nhất thế giới quan duy vật với phương pháp luận biện chứng."
+  },
+  {
+    "question": "Theo quan điểm của triết học Mác, vấn đề cơ bản của triết học là:",
+    "answers": [
+      "Quan hệ giữa tư duy và tồn tại.",
+      "Quan hệ giữa vật chất và vận động.",
+      "Quan hệ giữa lý luận và thực tiễn.",
+      "Quan hệ giữa tự nhiên và xã hội."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Vấn đề cơ bản của triết học là quan hệ giữa tư duy và tồn tại, hay giữa ý thức và vật chất."
+  },
+  {
+    "question": "Luận điểm nào dưới đây thuộc thế giới quan duy tâm:",
+    "answers": [
+      "Chúa tạo ra vũ trụ vạn vật.",
+      "Lửa là nguồn gốc của vũ trụ, vạn vật.",
+      "Nước là nguồn gốc của vũ trụ, vạn vật.",
+      "Kim, mộc, thủy, hỏa, thổ là nguồn gốc của vũ trụ, vạn vật"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Quan niệm Chúa tạo ra vũ trụ đặt tinh thần, ý niệm có trước vật chất nên thuộc thế giới quan duy tâm."
+  },
+  {
+    "question": "Luận điểm nào dưới đây thuộc thế giới quan duy vật:",
+    "answers": [
+      "Thế giới thống nhất ở tính vật chất.",
+      "Các con số là nguồn gốc của vũ trụ vạn vật.",
+      "Tôi tư duy, vậy tôi tồn tại.",
+      "Tồn tại nghĩa là được cảm giác."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Khẳng định thế giới thống nhất ở tính vật chất là luận điểm cơ bản của thế giới quan duy vật."
+  },
+  {
+    "question": "Nội dung nào không thuộc chức năng thế giới quan của triết học Mác – Lênin?",
+    "answers": [
+      "Chức năng đền bù hư ảo, liên kết cộng đồng, chuyển tải, bảo lưu văn hóa, điều chỉnh hành vi đạo đức.",
+      "Xác lập thế giới quan duy vật biện chứng, là hạt nhân thế giới quan cộng sản, là tiền đề để xác lập nhân sinh quan tích cực, đúng đắn.",
+      "Là cơ sở khoa học để đấu tranh với thế giới quan duy tâm, tôn giáo, phản khoa học.",
+      "Là hạt nhân lý luận trong hệ tư tưởng của giai cấp công nhân, của các lực lượng tiến bộ, cách mạng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Đền bù hư ảo, liên kết cộng đồng và bảo lưu văn hóa là các chức năng thường được nói đến của tôn giáo, không phải chức năng thế giới quan của triết học Mác - Lênin."
+  },
+  {
+    "question": "Khi cho rằng các vật thể quanh ta không liên quan đến thế giới \"vật tự nó\", mà chỉ là \"các hiện tượng phù hợp với cảm giác và tri thức do lý tính chúng ta tạo ra\", Cantơ là nhà triết học thuộc khuynh hướng nào?",
+    "answers": [
+      "Duy vật biện chứng.",
+      "Duy vật siêu hình",
+      "Duy tâm chủ quan",
+      "Duy tâm khách quan"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Khi coi các hiện tượng phụ thuộc vào cảm giác và những hình thức do lý tính chủ thể tạo ra, Cantơ thể hiện khuynh hướng duy tâm chủ quan."
+  },
+  {
+    "question": "Khẳng định nào sau đây là đúng",
+    "answers": [
+      "Phép biện chứng của Hêghen là phép biện chứng duy vật",
+      "Phép biện chứng của Hêghen là phép biện chứng tự phát.",
+      "Phép biện chứng của Hêghen là phép biện chứng duy tâm khách quan",
+      "Phép biện chứng của Hêghen là phép biện chứng tiên nghiệm chủ quan."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Phép biện chứng của Hêghen được xây dựng trên lập trường duy tâm khách quan."
+  },
+  {
+    "question": "Mác chỉ ra đâu là hạt nhân hợp lý trong triết học của Hêghen",
+    "answers": [
+      "Chủ nghĩa duy vật",
+      "Chủ nghĩa duy tâm",
+      "Phép biện chứng như lý luận về sự phát triển",
+      "Tư tưởng về vận động"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Mác đánh giá phép biện chứng, tức lý luận về sự vận động và phát triển, là hạt nhân hợp lý trong triết học Hêghen."
+  },
+  {
+    "question": "Ba phát minh lớn nhất của khoa học tự nhiên làm cơ sở khoa học tự nhiên cho sự ra đời tư duy biện chứng duy vật đầu thế kỷ XIX là những phát minh nào?",
+    "answers": [
+      "1) Thuyết mặt trời làm trung tâm vũ trụ của Côpécních, 2) định luật bảo toàn khối lượng của Lômônôxốp, 3) học thuyết tế bào.",
+      "1) Định luật bảo toàn và chuyển hoá năng lượng, 2) học thuyết tế bào, 3) học thuyết tiến hóa của Đácuyn",
+      "1) Phát hiện ra nguyên tử, 2) phát hiện ra điện tử, 3) định luật bảo toàn và chuyển hoá năng lượng."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Ba phát minh tiêu biểu là định luật bảo toàn và chuyển hóa năng lượng, học thuyết tế bào và học thuyết tiến hóa của Đácuyn."
+  },
+  {
+    "question": "Về mặt triết học, định luật bảo toàn và chuyển hoá năng lượng chứng minh cho quan điểm nào?",
+    "answers": [
+      "Quan điểm siêu hình phủ nhận sự vận động.",
+      "Quan điểm duy tâm phủ nhận sự vận động là khách quan.",
+      "Quan điểm biện chứng duy vật thừa nhận sự chuyển hoá lẫn nhau của giới tự nhiên vô cơ"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Định luật này chứng minh các dạng vận động và năng lượng có thể chuyển hóa lẫn nhau trong giới tự nhiên."
+  },
+  {
+    "question": "Ba phát minh trong khoa học tự nhiên: định luật bảo toàn và chuyển hoá năng lượng, học thuyết tế bào, học thuyết tiến hoá chứng minh thế giới vật chất có tính chất gì?",
+    "answers": [
+      "Tính chất tách rời tĩnh tại của thế giới vật chất.",
+      "Tính chất biện chứng của sự vận động và phát triển của thế giới vật chất.",
+      "Tính chất không tồn tại thực của thế giới vật chất."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Ba phát minh cho thấy thế giới vật chất tồn tại trong sự liên hệ, vận động và phát triển biện chứng."
+  },
+  {
+    "question": "Phát minh nào trong khoa học tự nhiên nửa đầu thế kỷ XIX vạch ra nguồn gốc tự nhiên của con người, chống lại quan điểm tôn giáo?",
+    "answers": [
+      "Học thuyết tế bào.",
+      "Học thuyết tiến hóa",
+      "Định luật bảo toàn và chuyển hoá năng lượng."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Học thuyết tiến hóa chỉ ra nguồn gốc tự nhiên và quá trình tiến hóa của con người."
+  },
+  {
+    "question": "Phát minh nào trong khoa học tự nhiên nửa đầu thế kỷ XIX vạch ra sự thống nhất giữa thế giới động vật và thực vật?",
+    "answers": [
+      "Học thuyết tế bào",
+      "Học thuyết tiến hoá.",
+      "Định luật bảo toàn và chuyển hoá năng lượng."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Học thuyết tế bào chứng minh cơ sở cấu tạo chung của cơ thể động vật và thực vật."
+  },
+  {
+    "question": "Cho biết năm sinh, năm mất và nơi sinh của Mác",
+    "answers": [
+      "1818 - 1883, ở Béc-linh",
+      "1818 - 1884, ở thành phố Tơ-re-vơ tỉnh Ranh",
+      "1817 - 1883, ở thành phố Tơ-re-vơ, tỉnh Ranh",
+      "1818 - 1883, ở thành phố Tơ-re-vơ, tỉnh Ranh"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "C. Mác sinh năm 1818 tại Tơ-re-vơ, tỉnh Ranh và mất năm 1883."
+  },
+  {
+    "question": "Ph. Ăngghen sinh năm nào, ở đâu và mất năm nào?",
+    "answers": [
+      "1819 - 1895, ở thành phố Bác-men",
+      "1820 - 1895, ở thành Béc-linh",
+      "1820 - 1895, ở thành phố Bác-men.",
+      "1821 - 1895, ở thành phố Bác-men."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Ph. Ăngghen sinh năm 1820 tại Bác-men và mất năm 1895."
+  },
+  {
+    "question": "Cho biết năm sinh, năm mất và nơi sinh của Lênin",
+    "answers": [
+      "1870 - 1922, ở Matxcva",
+      "1871 - 1923, ở tỉnh Kazan",
+      "1871 - 1921, ở vùng Xiberi",
+      "1870 - 1924, ở thành phố Simbirsk"
+    ],
+    "correctAnswers": [
+      3
+    ],
+    "explanation": "V.I. Lênin sinh năm 1870 tại Simbirsk và mất năm 1924."
+  },
+  {
+    "question": "Khi học ở Béc-linh, Mác tham gia hoạt động trong trào lưu triết học nào?",
+    "answers": [
+      "Phái Hêghen già (phái bảo thủ)",
+      "Phái Hêghen trẻ (phái cấp tiến)",
+      "Không tham gia vào phái nào."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Trong thời gian học ở Béc-linh, Mác tham gia phái Hêghen trẻ có khuynh hướng cấp tiến."
+  },
+  {
+    "question": "Vào năm 1841, Mác coi nhiệm vụ của triết học phải phục vụ cái gì?",
+    "answers": [
+      "Phục vụ cuộc đấu tranh của giai cấp vô sản.",
+      "Phục vụ chế độ xã hội hiện tại",
+      "Phục vụ cuộc đấu tranh cho sự nghiệp giải phóng con người."
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Năm 1841, Mác nhấn mạnh triết học phải phục vụ sự nghiệp giải phóng con người."
+  },
+  {
+    "question": "Vào năm 1841, trong tư tưởng của Mác có mâu thuẫn gì?",
+    "answers": [
+      "Mâu thuẫn giữa chủ nghĩa duy tâm triết học với tinh thần dân chủ cách mạng và vô thần.",
+      "Mâu thuẫn giữa chủ nghĩa duy tâm triết học với tinh thần cách mạng vô sản",
+      "Cả a và b."
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Khi đó Mác vẫn đứng trên lập trường duy tâm triết học nhưng đã có tinh thần dân chủ cách mạng và vô thần."
+  },
+  {
+    "question": "Vào năm 1841 - 1842, về mặt triết học Ph. Ăngghen đứng trên lập trường triết học nào?",
+    "answers": [
+      "Chủ nghĩa duy vật.",
+      "Chủ nghĩa duy tâm chủ quan.",
+      "Chủ nghĩa duy tâm khách quan"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "Trong giai đoạn 1841 - 1842, Ăngghen vẫn đứng trên lập trường duy tâm khách quan của phái Hêghen trẻ."
+  },
+  {
+    "question": "Luận điểm sau là của ai: \"Các nhà triết học đã chỉ giải thích thế giới bằng nhiều cách khác nhau, song vấn đề là cải tạo thế giới\"",
+    "answers": [
+      "Của Ph. Ăngghen",
+      "Của C. Mác",
+      "Của Lênin."
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Luận điểm về việc không chỉ giải thích mà còn phải cải tạo thế giới là Luận cương XI về Phoi-ơ-bắc của C. Mác."
+  },
+  {
+    "question": "Luận điểm về khả năng thắng lợi của cách mạng vô sản ở khâu yếu nhất của hệ thống tư bản chủ nghĩa thế giới là của ai?",
+    "answers": [
+      "C. Mác.",
+      "Ph. Ăngghen.",
+      "V.I. Lênin.",
+      "Hồ Chí Minh"
+    ],
+    "correctAnswers": [
+      2
+    ],
+    "explanation": "V.I. Lênin phát triển luận điểm cách mạng vô sản có thể thắng trước ở khâu yếu nhất của hệ thống đế quốc chủ nghĩa."
+  }
+]
