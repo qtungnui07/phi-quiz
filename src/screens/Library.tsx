@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { featuredCourses, formatNumber, libraryHps } from "../data";
+import { formatNumber, libraryHps } from "../data";
 import { useData } from "../store";
 import type { Navigate } from "../types";
 import { Icon, NeuButton, NeuCard, ProgressBar, ScreenShell, Stripe } from "../ui";
@@ -126,38 +126,6 @@ export function Library({ onNavigate }: { onNavigate: Navigate }) {
         ))}
       </div>
 
-      {/* Discover more */}
-      <div className="mt-12">
-        <div className="mb-6 flex items-center gap-4">
-          <h2 className="text-2xl font-extrabold text-ink">Khám phá thêm</h2>
-          <div className="h-[2.5px] flex-1 bg-ink" />
-        </div>
-        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
-          {featuredCourses.map((course, index) => (
-            <div
-              key={course.id}
-              className="item-enter group relative flex flex-col overflow-hidden rounded-3xl border-[2.5px] border-ink bg-surface2 shadow-hard transition-all hover:-translate-y-1 hover:shadow-hard-xl md:flex-row"
-              style={{ animationDelay: `${index * 80}ms` }}
-            >
-              <div className="flex items-center justify-center bg-cyan/20 p-8 text-5xl md:w-2/5">
-                <span aria-hidden>{course.emoji}</span>
-              </div>
-              <div className="flex flex-col justify-center p-6 md:w-3/5">
-                <span className={`mb-3 inline-flex w-max items-center gap-1.5 rounded-full border-2 border-ink px-3 py-1 text-[11px] font-extrabold ${course.tagColor}`}>
-                  <Icon name="trending_up" size={14} filled />
-                  {course.tag}
-                </span>
-                <h3 className="text-lg font-extrabold text-ink">{course.title}</h3>
-                <p className="mb-5 mt-1 text-sm text-muted">{course.description}</p>
-                <NeuButton tone="white" size="sm" className="w-max px-6">
-                  Khám phá ngay
-                  <Icon name="arrow_forward" size={18} />
-                </NeuButton>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
     </ScreenShell>
   );
 }

@@ -120,6 +120,43 @@ export function QuizScreen({
     }
   };
 
+  const previous = () => {
+    if (current > 0) setCurrent(current - 1);
+  };
+
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (finished) return;
+      if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
+
+      const target = event.target as HTMLElement | null;
+      if (target?.matches("input, textarea, select, [contenteditable='true']")) return;
+
+      const answerIndex = Number(event.key) - 1;
+      if (answerIndex >= 0 && answerIndex < Math.min(currentQuestion.answers.length, 4)) {
+        event.preventDefault();
+        selectAnswer(answerIndex);
+        return;
+      }
+
+      if (event.key === "Enter" && answers[currentQuestion.id] !== undefined) {
+        event.preventDefault();
+        next();
+        return;
+      }
+      if (event.key === "ArrowLeft") {
+        event.preventDefault();
+        previous();
+      } else if (event.key === "ArrowRight") {
+        event.preventDefault();
+        next();
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [answers, current, currentQuestion, finished, total]);
+
   const restart = () => {
     setQuestions(buildQuestions(quizPool));
     setCurrent(0);
@@ -281,13 +318,19 @@ export function QuizScreen({
 
           {/* Header: counter + timer */}
           <div className="relative z-10 flex items-center justify-between border-b-[2.5px] border-ink pb-5">
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2">
+              <NeuButton tone="white" size="sm" className="!px-3" onClick={previous} disabled={current === 0} title="Câu trước">
+                <Icon name="arrow_back" size={18} />
+              </NeuButton>
               <div className="flex h-12 w-12 items-center justify-center rounded-full border-[2.5px] border-ink bg-yellow shadow-hard-sm">
                 <span className="text-lg font-extrabold text-ink">
                   {(current + 1).toString().padStart(2, "0")}
                 </span>
               </div>
               <span className="text-sm font-extrabold uppercase tracking-widest text-muted">/ {total}</span>
+              <NeuButton tone="white" size="sm" className="!px-3" onClick={next} disabled={current === total - 1} title="Câu tiếp theo">
+                <Icon name="arrow_forward" size={18} />
+              </NeuButton>
             </div>
             <div className="flex items-center gap-2 rounded-full border-[2.5px] border-ink bg-surface px-4 py-2 shadow-hard-sm">
               <Icon name="timer" size={20} filled className={seconds < 180 ? "animate-pulse text-orange" : "text-orange"} />

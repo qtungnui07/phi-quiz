@@ -1,9 +1,16 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useData, type AdminState } from "../store";
 import type { Navigate } from "../types";
 import { Icon, NeuButton, NeuCard, ProgressBar, ScreenShell, Stars, Stripe } from "../ui";
 
 type Subject = AdminState["subjects"][number];
+
+const studySlogans = [
+  "Sẵn sàng cho buổi ôn hôm nay",
+  "Mỗi câu đúng, thêm tự tin",
+  "Ôn chắc kiến thức, thi thật tốt",
+  "Tiến bộ nhỏ, kết quả lớn",
+];
 
 /* ------------------------------------------------------------------ */
 /* Header                                                               */
@@ -11,20 +18,10 @@ type Subject = AdminState["subjects"][number];
 
 function HeaderBar({ query, onQueryChange }: { query: string; onQueryChange: (value: string) => void }) {
   return (
-    <div className="flex flex-col gap-4 pb-6 lg:flex-row lg:items-center lg:justify-between">
-      <div className="flex items-center gap-3">
-        <div className="flex h-13 w-13 shrink-0 items-center justify-center rounded-full border-[2.5px] border-ink bg-cyan text-lg font-extrabold text-ink shadow-hard-sm">
-          M
-        </div>
-        <div className="min-w-0">
-          <p className="truncate font-extrabold leading-tight text-ink">Nguyễn Nhật Minh</p>
-          <p className="text-sm text-muted">Học sinh Vàng · Khoa LLCT & PL</p>
-        </div>
-      </div>
-
-      <div className="flex flex-1 items-center gap-3 lg:max-w-md lg:justify-end">
-        <label className="flex flex-1 items-center gap-2 rounded-full border-[2.5px] border-ink bg-surface px-5 py-3 shadow-hard transition-shadow focus-within:shadow-hard">
-          <Icon name="search" size={22} className="text-faint" />
+    <header className="flex justify-start xl:justify-end">
+      <div className="flex items-center">
+        <label className="flex w-full items-center gap-2 rounded-full border-[2.5px] border-ink bg-surface px-4 py-2.5 shadow-hard-sm transition-shadow focus-within:shadow-hard sm:w-72">
+          <Icon name="search" size={20} className="shrink-0 text-faint" />
           <input
             type="search"
             value={query}
@@ -33,79 +30,10 @@ function HeaderBar({ query, onQueryChange }: { query: string; onQueryChange: (va
             className="min-w-0 flex-1 bg-transparent text-sm font-semibold text-ink outline-none placeholder:text-faint"
           />
         </label>
-        <span className="hidden shrink-0 items-center gap-1.5 rounded-full border-2 border-ink bg-ink px-3 py-2 text-xs font-bold text-surface sm:inline-flex">
-          <Icon name="workspace_premium" size={16} filled />
-          Cấp 42
-        </span>
-        <span className="hidden shrink-0 items-center gap-1.5 rounded-full border-2 border-ink bg-orange px-3 py-2 text-xs font-bold text-ink shadow-hard-sm sm:inline-flex">
-          <Icon name="local_fire_department" size={16} filled />
-          14 ngày
-        </span>
       </div>
-    </div>
+    </header>
   );
 }
-
-/* ------------------------------------------------------------------ */
-/* Daily challenge (compact banner)                                     */
-/* ------------------------------------------------------------------ */
-
-function DailyChallenge() {
-  return (
-    <section className="mb-8 flex items-center justify-between gap-4 rounded-3xl border-[2.5px] border-ink bg-yellow px-6 py-5 shadow-hard">
-      <div className="flex items-center gap-4">
-        <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border-[2.5px] border-ink bg-surface shadow-hard-sm">
-          <Icon name="local_fire_department" size={24} filled className="text-orange" />
-        </div>
-        <div className="min-w-0">
-          <p className="text-sm font-extrabold text-ink">Thử thách ngày</p>
-          <p className="truncate text-sm font-medium text-ink/80">
-            Hoàn thành <span className="font-extrabold text-ink">30 câu</span> • nhận 500 XP + 1 huy hiệu
-          </p>
-        </div>
-      </div>
-      <div className="hidden items-center gap-3 sm:flex">
-        <div className="relative h-4 w-36 overflow-hidden rounded-full border-[2.5px] border-ink bg-surface">
-          <div className="absolute inset-y-0 left-0 rounded-full border-r-[2.5px] border-ink bg-orange" style={{ width: "40%" }} />
-        </div>
-        <span className="text-sm font-extrabold text-ink">12/30</span>
-      </div>
-    </section>
-  );
-}
-
-/* ------------------------------------------------------------------ */
-/* Quick mode pills                                                     */
-/* ------------------------------------------------------------------ */
-
-function QuickModes({ onNavigate }: { onNavigate: Navigate }) {
-  const { activeSubject } = useData();
-  const modes: { label: string; icon: string; tone: "cyan" | "yellow" | "green" | "ink"; route: Parameters<Navigate>[0] }[] = [
-    { label: "Thi thử ngẫu nhiên", icon: "bolt", tone: "cyan", route: { name: "quiz", variant: "list" } },
-    { label: "Làm bài trắc nghiệm", icon: "quiz", tone: "yellow", route: { name: "quiz", variant: "grid" } },
-    { label: "Học Flashcard", icon: "style", tone: "green", route: { name: "flashcard", subjectId: activeSubject!.id } },
-    { label: "Bảng xếp hạng", icon: "leaderboard", tone: "ink", route: { name: "leaderboard" } },
-  ];
-  return (
-    <div className="flex flex-wrap items-center gap-3">
-      <span className="text-sm font-extrabold uppercase tracking-wider text-faint">Chế độ ôn:</span>
-      {modes.map(mode => (
-        <button
-          key={mode.label}
-          type="button"
-          onClick={() => onNavigate(mode.route)}
-          className={`pressable inline-flex items-center gap-1.5 rounded-full border-[2.5px] border-ink shadow-hard-sm ${tone(mode.tone)}`}
-        >
-          <Icon name={mode.icon} size={16} filled />
-          {mode.label}
-        </button>
-      ))}
-    </div>
-  );
-}
-
-const tone = (t: "cyan" | "yellow" | "green" | "ink") =>
-  t === "cyan" ? "bg-cyan text-ink" : t === "yellow" ? "bg-yellow text-ink" : t === "green" ? "bg-green text-ink" : "bg-ink text-surface";
 
 /* ------------------------------------------------------------------ */
 /* Subject card                                                         */
@@ -158,6 +86,11 @@ function SubjectCard({ subject, onOpen, delay }: { subject: Subject; onOpen: () 
 export function Dashboard({ onNavigate }: { onNavigate: Navigate }) {
   const { subjects } = useData();
   const [query, setQuery] = useState("");
+  const [sloganIndex, setSloganIndex] = useState(0);
+  useEffect(() => {
+    const timer = window.setInterval(() => setSloganIndex(index => (index + 1) % studySlogans.length), 4200);
+    return () => window.clearInterval(timer);
+  }, []);
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return subjects;
@@ -166,17 +99,20 @@ export function Dashboard({ onNavigate }: { onNavigate: Navigate }) {
 
   return (
     <ScreenShell>
-      <HeaderBar query={query} onQueryChange={setQuery} />
-
-      <div className="mb-6 flex items-end justify-between gap-4">
-        <div>
-          <h1 className="text-2xl font-extrabold text-ink md:text-3xl">Chào bạn, Minh! 👋</h1>
-          <p className="mt-1 text-sm text-muted">Chọn một môn học để tiếp tục ôn thi Lý luận chính trị & Pháp luật.</p>
+      <section className="mb-8 pt-8">
+        <div className="flex items-start justify-between gap-6 xl:gap-12">
+          <div className="max-w-xl">
+            <p key={sloganIndex} className="item-enter mb-3 inline-flex items-center gap-1.5 rounded-full bg-surface2 px-3 py-1 text-xs font-extrabold text-muted">
+              <Icon name="wb_sunny" size={15} filled className="text-yellow-deep" />
+              {studySlogans[sloganIndex]}
+            </p>
+            <h1 className="text-3xl font-extrabold leading-tight tracking-tight text-ink md:text-4xl">Chào bạn, Minh! <span className="inline-block origin-bottom-right animate-[wiggle_2.8s_ease-in-out_infinite]">👋</span></h1>
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">Chọn một môn học để tiếp tục ôn thi Lý luận chính trị & Pháp luật.</p>
+          </div>
+          <HeaderBar query={query} onQueryChange={setQuery} />
         </div>
-        <QuickModes onNavigate={onNavigate} />
-      </div>
+      </section>
 
-      <DailyChallenge />
 
       {/* Subjects — the focus */}
       <section>
@@ -186,13 +122,6 @@ export function Dashboard({ onNavigate }: { onNavigate: Navigate }) {
             Học phần của bạn
             <span className="rounded-full border-2 border-ink bg-yellow px-2.5 py-0.5 text-xs font-extrabold text-ink">{filtered.length}</span>
           </h3>
-          <button
-            type="button"
-            onClick={() => onNavigate({ name: "library" })}
-            className="pressable text-sm font-extrabold text-cyan-deep underline-offset-4 hover:underline"
-          >
-            Thư viện
-          </button>
         </div>
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-3">

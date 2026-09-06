@@ -6,7 +6,6 @@ export type Route =
   | { name: "subject"; subjectId: string }
   | { name: "quiz"; variant: QuizVariant }
   | { name: "flashcard"; subjectId: string }
-  | { name: "leaderboard" }
   | { name: "profile" }
   | { name: "admin" };
 
