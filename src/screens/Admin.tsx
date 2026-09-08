@@ -668,7 +668,7 @@ function LoginGate({ onSuccess, networkInfo }: { onSuccess: () => void; networkI
 type AdminTab = "subjects" | "questions" | "flashcards" | "users";
 
 export function AdminScreen({ onExit }: { onExit: () => void }) {
-  const { subjects, quizPool, flashcards, deleteSubject, resetAll } = useData();
+  const { subjects, quizPool, flashcards, deleteSubject } = useData();
   const [accessState, setAccessState] = useState<{ loading: boolean; allowed: boolean; ip?: string; network?: string; message?: string }>({
     loading: true,
     allowed: true,
@@ -750,10 +750,6 @@ export function AdminScreen({ onExit }: { onExit: () => void }) {
               <p className="mt-1 text-sm text-muted">Quản lý môn học, ngân hàng câu hỏi và nội dung ôn thi qua kết nối bảo mật.</p>
             </div>
             <div className="flex gap-2">
-              <NeuButton tone="white" size="sm" onClick={() => { if (window.confirm("Khôi phục toàn bộ dữ liệu mẫu ban đầu? Mọi thay đổi sẽ bị xóa.")) resetAll(); }}>
-                <Icon name="restore" size={16} />
-                Đặt lại dữ liệu
-              </NeuButton>
               <NeuButton tone="ink" size="sm" onClick={() => onExit && onExit()}>
                 <Icon name="arrow_back" size={16} />
                 Về app

@@ -1,5 +1,6 @@
 import { useEffect, useState, type ReactNode } from "react";
 import { AdminScreen } from "./screens/Admin";
+import { AuthScreen } from "./screens/AuthScreen";
 import { Dashboard } from "./screens/Dashboard";
 import { Flashcards } from "./screens/Flashcards";
 import { Library } from "./screens/Library";
@@ -9,6 +10,8 @@ import { SubjectDetail } from "./screens/SubjectDetail";
 import { DataProvider } from "./store";
 import type { Navigate, Route } from "./types";
 import { Icon } from "./ui";
+import { getCurrentAccount } from "./auth";
+import { logoutAccount } from "./auth";
 
 type NavItem = { key: Route["name"]; label: string; icon: string; route: Route };
 
@@ -103,6 +106,7 @@ function useNav(): { navItems: NavItem[]; mainItems: NavItem[] } {
 
 function AppInner() {
   const [route, setRoute] = useState<Route>(() => window.location.pathname === "/adminqtitpc" ? { name: "admin" } : { name: "home" });
+  const [account, setAccount] = useState(() => getCurrentAccount());
 
   const navigate: Navigate = nextRoute => {
     setRoute(nextRoute);
@@ -113,6 +117,9 @@ function AppInner() {
   }, [route]);
 
   const showNav = route.name !== "quiz" && route.name !== "admin";
+  if (route.name !== "admin" && !account) {
+    return <AuthScreen onSuccess={() => setAccount(getCurrentAccount())} />;
+  }
   const routeKey = JSON.stringify(route);
 
   let screen: ReactNode;
@@ -133,7 +140,7 @@ function AppInner() {
   } else if (route.name === "flashcard") {
     screen = <Flashcards key={route.subjectId} subjectId={route.subjectId} onBack={() => navigate({ name: "home" })} />;
   } else if (route.name === "profile") {
-    screen = <Profile onNavigate={navigate} />;
+    screen = <Profile onNavigate={navigate} accountName={account?.name} onLogout={() => { logoutAccount(); setAccount(null); }} />;
   } else {
     screen = <AdminScreen onExit={() => navigate({ name: "home" })} />;
   }

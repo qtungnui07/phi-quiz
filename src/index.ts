@@ -132,6 +132,17 @@ const server = serve({
       },
     },
 
+    // Auth screens are kept as full static HTML documents and embedded
+    // by AuthScreen. Serve them before the SPA fallback below.
+    "/auth/:screen": req => {
+      const screen = req.params.screen;
+      const file = screen === "login" ? "login.html" : screen === "register" ? "register.html" : null;
+      if (!file) return new Response("Not found", { status: 404 });
+      return new Response(Bun.file(join(import.meta.dir, "auth", file)), {
+        headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" },
+      });
+    },
+
     // Serve index.html for all unmatched routes.
     "/*": index,
 
