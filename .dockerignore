@@ -1,0 +1,8 @@
+.git
+.agents
+.codex
+node_modules
+dist
+data
+.env
+stitch_phiquiz_soft_neubrutalism_learning_app

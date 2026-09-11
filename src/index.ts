@@ -3,9 +3,17 @@ import { statSync } from "node:fs";
 import { mkdtempSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import index from "./index.html";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { randomBytes, createHmac } from "node:crypto";
 
 const cssSourcePath = join(import.meta.dir, "index.css");
+const authFile = join(import.meta.dir, "../data/users.json");
+type Account = { id: string; name: string; email: string; passwordHash?: string; googleId?: string; avatarUrl: string | null };
+async function accounts(): Promise<Account[]> { try { return JSON.parse(await readFile(authFile, "utf8")); } catch { return []; } }
+async function saveAccounts(value: Account[]) { await mkdir(join(import.meta.dir, "../data"), { recursive: true }); await writeFile(authFile, JSON.stringify(value, null, 2)); }
+const cookie = (id: string) => `${id}.${createHmac("sha256", process.env.AUTH_SECRET || "dev-secret").update(id).digest("hex")}`;
+const currentUser = async (req: Request) => { const raw = req.headers.get("cookie")?.match(/phiquiz_session=([^;]+)/)?.[1]; if (!raw) return null; const [id, sig] = raw.split("."); if (!id || sig !== cookie(id).split(".")[1]) return null; return (await accounts()).find(user => user.id === id) || null; };
+const publicUser = (user: Account) => ({ id: user.id, name: user.name, email: user.email, avatarUrl: user.avatarUrl });
 
 let cachedCss: { body: string; sourceMtime: number } | null = null;
 
@@ -114,6 +122,7 @@ function checkAdminAccess(req: Request, srv: any): { allowed: boolean; ip: strin
 
 const server = serve({
   port: process.env.PORT ? Number(process.env.PORT) : 3000,
+  hostname: process.env.HOST || "0.0.0.0",
   routes: {
     "/index.css": async req => {
       const css = await getCompiledCss();
@@ -131,6 +140,11 @@ const server = serve({
         return Response.json(status);
       },
     },
+    "/api/auth/me": { async GET(req) { const user = await currentUser(req); return Response.json({ user: user ? publicUser(user) : null }); } },
+    "/api/auth/register": { async POST(req) { const body = await req.json() as { name?: string; email?: string; password?: string }; const email = body.email?.trim().toLowerCase(); if (!email || !body.password || !body.name) return Response.json({ error: "Vui lòng nhập đủ thông tin." }, { status: 400 }); const list = await accounts(); if (list.some(item => item.email === email)) return Response.json({ error: "Email đã được sử dụng." }, { status: 409 }); const user: Account = { id: randomBytes(16).toString("hex"), name: body.name.trim(), email, passwordHash: await Bun.password.hash(body.password), avatarUrl: null }; list.push(user); await saveAccounts(list); return new Response(JSON.stringify({ user: publicUser(user) }), { headers: { "Content-Type": "application/json", "Set-Cookie": `phiquiz_session=${cookie(user.id)}; HttpOnly; SameSite=Lax; Path=/` } }); } },
+    "/api/auth/login": { async POST(req) { const body = await req.json() as { email?: string; password?: string }; const user = (await accounts()).find(item => item.email === body.email?.trim().toLowerCase()); if (!user?.passwordHash || !body.password || !(await Bun.password.verify(body.password, user.passwordHash))) return Response.json({ error: "Email hoặc mật khẩu không đúng." }, { status: 401 }); return new Response(JSON.stringify({ user: publicUser(user) }), { headers: { "Content-Type": "application/json", "Set-Cookie": `phiquiz_session=${cookie(user.id)}; HttpOnly; SameSite=Lax; Path=/` } }); } },
+    "/api/auth/google": { GET() { const url = new URL("https://accounts.google.com/o/oauth2/v2/auth"); url.searchParams.set("client_id", process.env.GOOGLE_CLIENT_ID || ""); url.searchParams.set("redirect_uri", `${process.env.APP_URL || "http://localhost:3000"}/api/auth/google/callback`); url.searchParams.set("response_type", "code"); url.searchParams.set("scope", "openid email profile"); return Response.redirect(url); } },
+    "/api/auth/google/callback": { async GET(req) { const code = new URL(req.url).searchParams.get("code"); if (!code || !process.env.GOOGLE_CLIENT_ID || !process.env.GOOGLE_CLIENT_SECRET) return new Response("Google OAuth chưa được cấu hình.", { status: 503 }); const token = await fetch("https://oauth2.googleapis.com/token", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body: new URLSearchParams({ code, client_id: process.env.GOOGLE_CLIENT_ID, client_secret: process.env.GOOGLE_CLIENT_SECRET, redirect_uri: `${process.env.APP_URL || "http://localhost:3000"}/api/auth/google/callback`, grant_type: "authorization_code" }) }).then(r => r.json()) as { access_token?: string }; if (!token.access_token) return new Response("Không thể xác minh Google OAuth.", { status: 401 }); const profile = await fetch("https://www.googleapis.com/oauth2/v2/userinfo", { headers: { Authorization: `Bearer ${token.access_token}` } }).then(r => r.json()) as { id: string; email: string; name: string; picture?: string }; const list = await accounts(); let user = list.find(item => item.googleId === profile.id || item.email === profile.email); if (!user) { user = { id: randomBytes(16).toString("hex"), name: profile.name, email: profile.email, googleId: profile.id, avatarUrl: profile.picture || null }; list.push(user); await saveAccounts(list); } return new Response(null, { status: 302, headers: { Location: "/", "Set-Cookie": `phiquiz_session=${cookie(user.id)}; HttpOnly; SameSite=Lax; Path=/` } }); } },
 
     // Auth screens are kept as full static HTML documents and embedded
     // by AuthScreen. Serve them before the SPA fallback below.
@@ -144,7 +158,17 @@ const server = serve({
     },
 
     // Serve index.html for all unmatched routes.
-    "/*": index,
+    "/*": req => {
+      const pathname = new URL(req.url).pathname;
+      if (/^\/chunk-[\w-]+\.js$/.test(pathname)) {
+        return new Response(Bun.file(join(import.meta.dir, "../dist", pathname.slice(1))), {
+          headers: { "Content-Type": "text/javascript; charset=utf-8", "Cache-Control": "no-store" },
+        });
+      }
+      return new Response(Bun.file(join(import.meta.dir, "../dist/index.html")), {
+      headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": "no-store" },
+      });
+    },
 
     "/api/hello": {
       async GET(req) {

@@ -1,0 +1,7 @@
+tunnel: a1184569-0748-4c34-923d-8d90682683a5
+credentials-file: /home/qtitpc/.cloudflared/a1184569-0748-4c34-923d-8d90682683a5.json
+
+ingress:
+  - hostname: quiz.qtitpc.dev
+    service: http://127.0.0.1:3000
+  - service: http_status:404
