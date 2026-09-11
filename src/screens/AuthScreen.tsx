@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { loginAccount, registerAccount } from "../auth";
+import { setCurrentAccount } from "../auth";
 
 export function AuthScreen({ onSuccess }: { onSuccess: () => void }) {
   const [registering, setRegistering] = useState(false);
@@ -17,8 +17,13 @@ export function AuthScreen({ onSuccess }: { onSuccess: () => void }) {
       form?.addEventListener("submit", event => {
         event.preventDefault();
         const get = (id: string) => (doc.getElementById(id) as HTMLInputElement | null)?.value || "";
-        const result = registering ? registerAccount(get("fullName"), get("email"), get("password")) : loginAccount(get("identifier"), get("password"));
-        if (result.ok) onSuccess(); else window.alert(result.message);
+        const submit = async () => {
+          const response = await fetch(registering ? "/api/auth/register" : "/api/auth/login", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(registering ? { name: get("fullName"), email: get("email"), password: get("password") } : { email: get("identifier"), password: get("password") }) });
+          const result = await response.json() as { user?: { id: string; name: string; email: string }; error?: string };
+          if (!response.ok || !result.user) throw new Error(result.error || "Không thể xác thực.");
+          setCurrentAccount(result.user); onSuccess();
+        };
+        void submit().catch(error => window.alert(error instanceof Error ? error.message : "Không thể xác thực."));
       }, { once: true });
       doc.querySelectorAll("a").forEach(link => link.addEventListener("click", event => { if (link.textContent?.toLowerCase().includes(registering ? "đăng nhập" : "đăng ký")) { event.preventDefault(); setRegistering(!registering); } }));
     };

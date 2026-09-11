@@ -23,6 +23,16 @@ export function getCurrentAccount(): LocalAccount | null {
   } catch { return null; }
 }
 
+export function setCurrentAccount(account: { id: string; name: string; email: string }) {
+  const local: LocalAccount = { id: account.id, name: account.name, identifier: account.email, password: "", createdAt: new Date().toISOString() };
+  try {
+    const accounts = readAccounts().filter(item => item.id !== local.id && item.identifier !== local.identifier);
+    localStorage.setItem(ACCOUNTS_KEY, JSON.stringify([...accounts, local]));
+    localStorage.setItem(SESSION_KEY, local.id);
+  } catch { /* server session remains authoritative */ }
+  return local;
+}
+
 export function registerAccount(name: string, identifier: string, password: string): { ok: boolean; message?: string; account?: LocalAccount } {
   const cleanIdentifier = identifier.trim().toLowerCase();
   const cleanName = name.trim();

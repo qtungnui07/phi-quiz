@@ -12,7 +12,6 @@ import type { Navigate, Route } from "./types";
 import { Icon } from "./ui";
 import { getCurrentAccount } from "./auth";
 import { logoutAccount } from "./auth";
-import { AuthGate } from "./AuthGate";
 
 type NavItem = { key: Route["name"]; label: string; icon: string; route: Route };
 
@@ -161,6 +160,8 @@ function AppInner() {
 
 export function App() {
   return (
-    <AuthGate>{() => <DataProvider><AppInner /></DataProvider>}</AuthGate>
+    <DataProvider>
+      <AppInner />
+    </DataProvider>
   );
 }
